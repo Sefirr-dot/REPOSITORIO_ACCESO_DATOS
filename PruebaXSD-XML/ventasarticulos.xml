@@ -14,8 +14,8 @@
             <fecha>10-10-2015</fecha>
         </venta>
         <venta>
-            <numventa>11</numventa>
-            <unidades>2</unidades>
+            <numventa>100</numventa>
+            <unidades>100</unidades>
             <nombrecliente>Pedro García</nombrecliente>
             <fecha>15-10-2015</fecha>
         </venta>
@@ -30,6 +30,12 @@
             <unidades>10</unidades>
             <nombrecliente>Cliente 1</nombrecliente>
             <fecha>16-12-2015</fecha>
+        </venta>
+        <venta>
+            <numventa>110</numventa>
+            <unidades>13334</unidades>
+            <nombrecliente>josefee</nombrecliente>
+            <fecha>12/12/2022</fecha>
         </venta>
     </ventas>
 </ventasarticulos>

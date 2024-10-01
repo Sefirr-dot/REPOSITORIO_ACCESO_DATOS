@@ -2,11 +2,13 @@ package datos;
 
 public class Notas {
 
+	private int registro;
 	private int numAlumno;
 	private String asignatura;
 	private float notaAsignatura;
-	public Notas(int numAlumno, String asignatura, float nota) {
+	public Notas(int registro, int numAlumno, String asignatura, float nota) {
 		super();
+		this.registro = registro;
 		this.numAlumno = numAlumno;
 		this.asignatura = asignatura;
 		this.notaAsignatura = nota;
@@ -31,6 +33,12 @@ public class Notas {
 	}
 	public void setNota(float nota) {
 		this.notaAsignatura = nota;
+	}
+	public int getRegistro() {
+		return registro;
+	}
+	public void setRegistro(int registro) {
+		this.registro = registro;
 	}
 	
 	

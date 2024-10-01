@@ -1,0 +1,198 @@
+package datos;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.RandomAccessFile;
+import java.util.Scanner;
+
+public class Main {
+
+	static final int POSICIONALUMNOS = 92;
+	static final int POSICIONNOTAS = 48;
+	public static void main(String[] args) throws IOException {
+
+		Scanner sc = new Scanner(System.in);
+
+		int opcion;
+		do {
+			mostrarMenu();
+			opcion = sc.nextInt();
+			switch(opcion) {
+			case 1:
+				listarAlumnos();
+				break;
+			case 2:
+				listarNotas();
+				break;
+			case 3:
+				actualizarFicheroAlumnos();
+				break;
+			case 4:
+				break;
+			case 5:
+				System.out.println("Adios!!!");
+				break;
+			default:
+				System.out.println("Elige una opcion valida Ma g");
+			}
+		} while(opcion !=0);
+		sc.close();
+	}
+	private static void actualizarFicheroAlumnos() throws IOException {
+	    // Archivos
+	    File archivo1 = new File(".\\Alumnos.dat");
+	    RandomAccessFile archAccessFile1 = new RandomAccessFile(archivo1, "rw");
+	    
+	    File archivo2 = new File(".\\Notas.dat");
+	    RandomAccessFile archAccessFile2 = new RandomAccessFile(archivo2, "r"); // Solo lectura para notas
+	    
+	    // Variables de ayuda
+	    char nombre[] = new char[20];
+	    char localidad[] = new char[20];
+	    long posicion1 = 0; 
+	    
+	    final int TAMANO_REGISTRO_ALUMNOS = 92; // Tamaño del registro en el archivo Alumnos
+	    final int TAMANO_REGISTRO_NOTAS = 8;    // numAlumno (int) + notaMedia (float) = 4 + 4 bytes = 8 bytes
+	    
+	    // Procesar cada alumno en el archivo de alumnos
+	    while (posicion1 < archAccessFile1.length()) {
+	        long posicion2 = 0; // Reiniciar la posición para el archivo de notas
+	        int contador = 0;
+	        float notaMediaFinal = 0;
+
+	        // Leer el registro del alumno
+	        archAccessFile1.seek(posicion1); // Mover a la posición actual del archivo de alumnos
+	        int numAlumno = archAccessFile1.readInt(); // Leer número de alumno
+
+	        // Leer las notas de ese alumno en el archivo de notas
+	        while (posicion2 < archAccessFile2.length()) {
+	            archAccessFile2.seek(posicion2); // Mover a la posición actual del archivo de notas
+
+	            // Verificar si es seguro leer un entero (4 bytes) antes de leer
+	            if (archAccessFile2.getFilePointer() + 4 > archAccessFile2.length()) {
+	                break; // Salir del bucle si no hay suficientes bytes restantes
+	            }
+
+	            int numAlumno2 = archAccessFile2.readInt(); // Leer número de alumno en archivo de notas
+
+	            if (numAlumno == numAlumno2) {
+	                // Verificar si es seguro leer un float (4 bytes) antes de leer
+	                if (archAccessFile2.getFilePointer() + 4 > archAccessFile2.length()) {
+	                    break; // Salir si no es seguro leer un float
+	                }
+
+	                // Si el número de alumno coincide, obtener la nota
+	                float notaMedia = archAccessFile2.readFloat();
+	                notaMediaFinal += notaMedia; // Acumular la nota
+	                contador++; // Contar cuántas notas tiene el alumno
+	            }
+
+	            posicion2 += TAMANO_REGISTRO_NOTAS; // Avanzar a la siguiente nota
+	        }
+
+	        // Si encontramos alguna nota, calculamos la media
+	        if (contador > 0) {
+	            notaMediaFinal = notaMediaFinal / contador;
+
+	            // Actualizar la nota media en el archivo de alumnos
+	            archAccessFile1.seek(posicion1 + 88); // La posición de la nota media en el registro de alumno
+	            archAccessFile1.writeFloat(notaMediaFinal); // Sobreescribir la nota media
+	        }
+
+	        // Avanzar al siguiente alumno
+	        posicion1 += TAMANO_REGISTRO_ALUMNOS;
+	        
+	        // Reiniciar el puntero del archivo de notas para procesar el próximo alumno
+	        archAccessFile2.seek(0); 
+	    }
+
+	    // Cerrar archivos
+	    archAccessFile1.close();
+	    archAccessFile2.close();
+	}
+
+
+		
+
+	private static void listarNotas() throws IOException {
+		File archivo = new File(".\\Notas.dat");
+		RandomAccessFile archAccessFile = new RandomAccessFile(archivo, "r");
+		int posicion = 0;
+		int registro=1;
+		char nombreAsignatura[]= new char[20], auxNombreasignatura;
+		System.out.println("REGIS     NUMALUM   ASIGNATURA           NOTAMEDIA");
+		System.out.println("--------- --------- -------------------- ---------");
+		while(archAccessFile.getFilePointer() != archAccessFile.length()) {
+			archAccessFile.seek(posicion);
+			int numAlumno = archAccessFile.readInt();
+			if(numAlumno!=0) {
+				
+				for (int i = 0; i < nombreAsignatura.length; i++) {
+					auxNombreasignatura = archAccessFile.readChar();
+					nombreAsignatura[i] = auxNombreasignatura;
+				}
+				
+				String nombreString = new String(nombreAsignatura);
+
+				float notaAsignatura = archAccessFile.readFloat();
+				
+				System.out.printf("%-9d %-9s %-20s %-10.2f%n",registro ,numAlumno, nombreString.trim(), notaAsignatura);
+				
+			}
+			registro++;
+			
+			posicion+=POSICIONNOTAS;
+		
+	}
+		System.out.println("--------------------------------------------------");
+}
+
+	private static void listarAlumnos() throws IOException {
+		File archivo = new File(".\\Alumnos.dat");
+		RandomAccessFile archAccessFile = new RandomAccessFile(archivo, "r");
+		float salario =0;
+		char nombre[] = new char[20],auxnombre;
+		
+		char localidad[] = new char[20], auxLocalidad;
+		long posicion = 0;
+		System.out.println("NUMALUMNO NOMBRE               LOCALIDAD            NUMASIG NOTAMEDIA");
+		System.out.println("--------- -------------------- -------------------- ------- ---------");
+		while(archAccessFile.getFilePointer() != archAccessFile.length()) {
+			archAccessFile.seek(posicion);
+			int numAlumno = archAccessFile.readInt();
+			if(numAlumno!=0) {
+				for (int i = 0; i < nombre.length; i++) {
+					auxnombre = archAccessFile.readChar();
+					nombre[i] = auxnombre;
+				}
+				
+				String nombreString = new String(nombre);
+				for (int i = 0; i < localidad.length; i++) {
+					auxLocalidad = archAccessFile.readChar();
+					localidad[i] = auxLocalidad;
+				}
+				String localidadString = new String(localidad);
+				int numAsignaturas = archAccessFile.readInt();
+				float notaMedia = archAccessFile.readFloat();
+				
+				System.out.printf("%-9d %-20s %-20s %-7d %-10.2f%n", numAlumno, nombreString.trim(), localidadString.trim(), numAsignaturas, notaMedia);
+				
+			}
+			
+			posicion+=POSICIONALUMNOS;
+		}		
+		System.out.println("---------------------------------------------------------------------");
+	}
+
+	private static void mostrarMenu() {
+		System.out.println("--------------------------------------");
+		System.out.println("---------1.LISTAR ALUMNOS-------------");
+		System.out.println("---------2.LISTAR NOTAS---------------");
+		System.out.println("---------3.ACTUALIZAR FICHERO ALUMNOS-");
+		System.out.println("---------4.GENERAR FICHERO alumnos.XML");
+		System.out.println("---------5.SALIR----------------------");
+	}
+	
+	
+
+}

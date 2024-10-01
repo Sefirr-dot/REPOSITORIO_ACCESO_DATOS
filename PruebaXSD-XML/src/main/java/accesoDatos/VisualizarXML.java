@@ -36,7 +36,7 @@ public class VisualizarXML {
 				String nomCli=sc.next();
 				System.out.println("Di el numero de unidades");
 				int unidades= sc.nextInt();
-				System.out.println("Di la fecha2");
+				System.out.println("Di la fecha");
 				String fechaString =sc.next();
 				insertarventa(numVenta, nomCli, unidades, fechaString);
 				break;
@@ -44,6 +44,13 @@ public class VisualizarXML {
 				System.out.println("Di el  numero de venta");
 				int numVenta1 = sc.nextInt();
 				eliminarVenta(numVenta1);
+				break;
+			case 4:
+				System.out.println("Di el numero venta");
+				int numVenta2 = sc.nextInt();
+				System.out.println("Di las unidades");
+				int unidades2 = sc.nextInt();
+				modificarUnidades(numVenta2,unidades2);
 			case 0:
 				System.out.println("Adios!!");
 				break;
@@ -53,10 +60,32 @@ public class VisualizarXML {
 		sc.close();
 	}
 	
+	private static void modificarUnidades(int numVenta2, int unidades) throws JAXBException, FileNotFoundException {
+		JAXBContext jaxbContext = JAXBContext.newInstance(ObjectFactory.class);    
+		Unmarshaller u = jaxbContext.createUnmarshaller();     
+		JAXBElement jaxbElement = (JAXBElement)u.unmarshal(new FileInputStream("./ventasarticulos.xml")); 
+		VentasType miventa = (VentasType) jaxbElement.getValue();   
+		//Obtenemos una instancia para obtener todas las ventas      
+		Ventas vent = miventa.getVentas();    
+		// Guardamos las ventas en la lista  
+		List listaVentas = new ArrayList();  
+		listaVentas = vent.getVenta(); 
+		for (int i = 0; i < listaVentas.size(); i++) {   
+			Ventas.Venta ve = (Ventas.Venta) listaVentas.get(i);
+			if(ve.getNumventa().intValue()==numVenta2) {
+				ve.setUnidades(numVenta2);
+			}
+		Marshaller m = jaxbContext.createMarshaller();   
+		m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT,Boolean.TRUE);      
+		m.marshal(jaxbElement, new FileOutputStream("./ventasarticulos.xml"));
+			            
+		}}
+
 	private static void mostrarMenu() {
 		System.out.println("1. Visualizar XML.");
 		System.out.println("2. Insertar Venta.");
 		System.out.println("3. Eliminar Venta.");
+		System.out.println("4. Modificar unidades");
 		System.out.println("0. Salir.");
 		
 	}

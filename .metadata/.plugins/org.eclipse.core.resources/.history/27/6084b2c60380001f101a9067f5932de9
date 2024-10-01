@@ -1,0 +1,46 @@
+package datos;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int opcion;
+		do {
+			mostrarMenu();
+			opcion = sc.nextInt();
+			switch(opcion) {
+			case 1:
+				System.out.println("Di el numero de venta");
+				int numventa = sc.nextInt();
+				
+				break;
+			case 2:
+				break;
+			case 3:
+				break;
+			case 4:
+				break;
+			case 5:
+				System.out.println("Adios!!!");
+				break;
+			}
+			} while(opcion == 0);
+		sc.close();
+	}
+
+	private static void mostrarMenu() {
+		System.out.println("--------------------------------------");
+		System.out.println("---------1.LISTAR ALUMNOS-------------");
+		System.out.println("---------2.LISTAR NOTAS---------------");
+		System.out.println("---------3.ACTUALIZAR FICHERO ALUMNOS-");
+		System.out.println("---------4.GENERAR FICHERO alumnos.XML");
+		System.out.println("---------5.SALIR----------------------");
+	}
+	
+	
+
+}
