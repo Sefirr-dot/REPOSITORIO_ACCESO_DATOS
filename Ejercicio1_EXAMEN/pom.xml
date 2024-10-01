@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>AD_Tema1</groupId>
+  <artifactId>Ejercicio1_EXAMEN</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  <dependency>
+			<groupId>javax.xml.bind</groupId>
+
+			<artifactId>jaxb-api</artifactId>
+
+			<version>2.3.1</version> <!-- Versión actualizada de JAXB -->
+
+		</dependency>
+
+		<!-- Implementación de JAXB -->
+
+		<dependency>
+
+			<groupId>org.glassfish.jaxb</groupId>
+
+			<artifactId>jaxb-runtime</artifactId>
+
+			<version>2.3.3</version> <!-- Versión actualizada de JAXB -->
+
+		</dependency>
+  </dependencies>
+</project>

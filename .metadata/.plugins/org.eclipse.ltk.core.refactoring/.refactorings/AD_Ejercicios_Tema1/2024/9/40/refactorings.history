@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ventasarticulos.xml&apos; to &apos;PruebaXSD-XML&apos;&#x0D;&#x0A;- Original project: &apos;AD_Ejercicios_Tema1&apos;&#x0D;&#x0A;- Destination element: &apos;PruebaXSD-XML&apos;&#x0D;&#x0A;- Original element: &apos;ventasarticulos.xml&apos;" description="Copy file" destination="=PruebaXSD-XML" element1="ventasarticulos.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1727717506550" units="0" version="1.0"/>
+</session>

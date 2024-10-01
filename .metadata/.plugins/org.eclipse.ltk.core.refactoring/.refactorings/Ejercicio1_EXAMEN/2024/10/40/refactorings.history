@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;nota&apos; in &apos;datos.Notas&apos; to &apos;notaAsignatura&apos;&#x0D;&#x0A;- Original project: &apos;Ejercicio1_EXAMEN&apos;&#x0D;&#x0A;- Original element: &apos;datos.Notas.nota&apos;&#x0D;&#x0A;- Renamed element: &apos;datos.Notas.notaAsignatura&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;nota&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;datos{Notas.java[Notas^nota" name="notaAsignatura" references="true" setter="false" stamp="1727790628911" textual="false" version="1.0"/>
+</session>

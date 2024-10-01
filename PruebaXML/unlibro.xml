@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Libreria>
+    <ListaLibro>
+        <Libro>
+            <Nombreciko>Entornos de Desarrollo</Nombreciko>
+            <Editorialcika>Garceta</Editorialcika>
+            <Autorciko>Alicia Ramos</Autorciko>
+            <Isbnciko>978-84-1545-297-3</Isbnciko>
+        </Libro>
+        <Libro>
+            <Nombreciko>Entornos de Juegos online</Nombreciko>
+            <Editorialcika>Pepones</Editorialcika>
+            <Autorciko>Jose Ramos</Autorciko>
+            <Isbnciko>118-84-1222-297-311</Isbnciko>
+        </Libro>
+    </ListaLibro>
+    <lugar>Ciudad Real</lugar>
+    <nombre>JUANITOS LIBRERY</nombre>
+</Libreria>

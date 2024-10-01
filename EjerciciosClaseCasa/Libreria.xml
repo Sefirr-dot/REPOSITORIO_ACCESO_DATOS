@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LibreriaMaxima>
+    <listaLibrerias>
+        <ListaLibro>
+            <Libro>
+                <Nombreciko>Entornos de Desarrollo</Nombreciko>
+                <Editorialcika>Garceta</Editorialcika>
+                <Autorciko>Alicia Ramos</Autorciko>
+                <Isbnciko>978-84-1545-297-3</Isbnciko>
+            </Libro>
+            <Libro>
+                <Nombreciko>Entornos de Juegos online</Nombreciko>
+                <Editorialcika>Pepones</Editorialcika>
+                <Autorciko>Jose Ramos</Autorciko>
+                <Isbnciko>118-84-1222-297-311</Isbnciko>
+            </Libro>
+        </ListaLibro>
+        <lugar>Ciudad Real</lugar>
+        <nombre>JUANITOS LIBRERY</nombre>
+    </listaLibrerias>
+    <listaLibrerias>
+        <ListaLibro>
+            <Libro>
+                <Nombreciko>Juegos en el parke del Desarrollo</Nombreciko>
+                <Editorialcika>Jepetoss</Editorialcika>
+                <Autorciko>Alexiss Jose Maria manuel del otro Ramos</Autorciko>
+                <Isbnciko>978-84-1545-297-3</Isbnciko>
+            </Libro>
+            <Libro>
+                <Nombreciko>Entornos de Juegos multiplataforma NAdroid</Nombreciko>
+                <Editorialcika>Pelepess</Editorialcika>
+                <Autorciko>Juanjo rios</Autorciko>
+                <Isbnciko>118-84-0-297-311</Isbnciko>
+            </Libro>
+            <Libro>
+                <Nombreciko>Entornos de Historias Andergraund</Nombreciko>
+                <Editorialcika>Colals</Editorialcika>
+                <Autorciko>Jose felix Ramos</Autorciko>
+                <Isbnciko>008-84-1545-297-3</Isbnciko>
+            </Libro>
+        </ListaLibro>
+        <lugar>Madrid</lugar>
+        <nombre>Pankos LIBRERY</nombre>
+    </listaLibrerias>
+    <lugar>Manzanares</lugar>
+    <nombre>Librerias Martinez</nombre>
+</LibreriaMaxima>

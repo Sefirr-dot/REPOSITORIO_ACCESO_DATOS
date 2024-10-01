@@ -1,0 +1,18 @@
+package claseJAXB;
+
+import java.util.ArrayList;
+
+public class Libreria {
+
+	private ArrayList<Libros> listaLibros;
+	private String nombre;
+	private String lugar;
+	public Libreria(ArrayList<Libros> listaLibros, String nombre, String lugar) {
+		super();
+		this.listaLibros = listaLibros;
+		this.nombre = nombre;
+		this.lugar = lugar;
+	}
+	
+	
+}
