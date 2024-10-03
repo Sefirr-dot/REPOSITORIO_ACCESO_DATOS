@@ -3,13 +3,20 @@ package datos;
 import java.io.File;
 import java.io.IOException;
 import java.io.RandomAccessFile;
+import java.util.ArrayList;
 import java.util.Scanner;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
+
+
 
 public class Main {
 
 	static final int POSICIONALUMNOS = 92;
 	static final int POSICIONNOTAS = 48;
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException, JAXBException {
 
 		Scanner sc = new Scanner(System.in);
 
@@ -30,6 +37,7 @@ public class Main {
 				verNotas();
 				break;
 			case 4:
+				generarAlumnoXML();
 				break;
 			case 5:
 				System.out.println("Adios!!!");
@@ -39,6 +47,110 @@ public class Main {
 			}
 		} while(opcion !=0);
 		sc.close();
+	}
+	private static void generarAlumnoXML() throws IOException, JAXBException {
+		
+		File archivo1 = new File(".\\Alumnos.dat");
+	    RandomAccessFile archAccessFile1 = new RandomAccessFile(archivo1, "rw");
+	    
+	    File archivo2 = new File(".\\Notas.dat");
+	    
+	    
+	    RandomAccessFile archAccessFile2 = new RandomAccessFile(archivo2, "r"); // Solo lectura para notas
+	    
+	    ArrayList<Alummno> listaAlumnos = new ArrayList<Alummno>();
+	    
+	    
+	    // Variables de ayuda
+	    long posicion1 = 0;  // Posición dentro del archivo Alumnos
+	    
+	   
+	    // Procesar cada alumno en el archivo de alumnos
+	    while (posicion1 < archAccessFile1.length()) {
+	    	Alummno alumnAlummno = new Alummno();
+	    	Notas notas1 = new Notas();
+	        long posicion2 = 0; // Reiniciar la posición para el archivo de notas
+	        int contador = 0;
+	        float notaMediaFinal = 0;
+	        
+	        
+	        
+	        archAccessFile1.seek(posicion1); // Mover a la posición actual del archivo de alumnos
+	        int numAlumno = archAccessFile1.readInt(); // Leer número de alumno
+	        
+	        
+	        alumnAlummno.setNumAlumno(numAlumno);
+	        char nombre[] = new char[20],auxnombre;
+	        
+	        
+	        for (int i = 0; i < nombre.length; i++) {
+				auxnombre = archAccessFile1.readChar();
+				nombre[i] = auxnombre;
+			}
+	        
+	        
+	        char localidad[] = new char[20], auxLocalidad;
+	        String nombreString = new String(nombre);
+	        alumnAlummno.setNombre(nombreString);
+	        
+	        
+			for (int i = 0; i < localidad.length; i++) {
+				auxLocalidad = archAccessFile1.readChar();
+				localidad[i] = auxLocalidad;
+			}
+			
+			
+			String localidadString = new String(localidad);
+			int numAsignaturas = archAccessFile1.readInt();
+			alumnAlummno.setLocalidad(localidadString);
+			alumnAlummno.setNumAsignaturas(numAsignaturas);
+			
+	        // Leer el registro del alumno
+			ArrayList<Notas> listaNotas = new ArrayList<Notas>();
+	        // Leer las notas de ese alumno en el archivo de notas
+	        while (posicion2 < archAccessFile2.length()) {
+	        	
+	            archAccessFile2.seek(posicion2); // Mover a la posición actual del archivo de notas
+	            
+	            int numAlumno2 = archAccessFile2.readInt(); // Leer número de alumno en archivo de notas
+
+	            if (numAlumno == numAlumno2) {
+	            	char asignatura[] = new char[20], auxAsignatura;
+	            	archAccessFile2.seek(posicion2+4);
+	            	for(int i =0;i<asignatura.length;i++) {
+	            		auxAsignatura = archAccessFile2.readChar();
+	            		asignatura[i] = auxAsignatura;
+	            	}
+	            	String asignaturaString = new String(asignatura);
+	            	notas1.setAsignatura(asignaturaString.trim());
+	            	archAccessFile2.seek(posicion2+44);
+	                float notaMedia = archAccessFile2.readFloat();
+	                notas1.setNota(notaMedia);
+	                listaNotas.add(notas1);
+	            }
+	            
+	            // Avanzar a la siguiente posición en el archivo de notas
+	            posicion2 += POSICIONNOTAS; // 48 bytes por cada registro de notas
+	            
+	        }
+	        alumnAlummno.setListaNotas(listaNotas);
+	        listaAlumnos.add(alumnAlummno);
+	        // Avanzar al siguiente alumno
+	        posicion1 += POSICIONALUMNOS; // 92 bytes por cada registro de alumno
+	        
+	        // Reiniciar el puntero del archivo de notas para procesar el próximo alumno
+	        archAccessFile2.seek(0); 
+	    }
+		ListaAlumnos listaFinAlumnos = new ListaAlumnos(listaAlumnos);
+		JAXBContext context = JAXBContext.newInstance(ListaAlumnos.class);
+		Marshaller marshaller2 = context.createMarshaller();
+		
+		
+		
+		marshaller2.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
+		marshaller2.marshal(listaFinAlumnos, System.out);
+		marshaller2.marshal(listaFinAlumnos, new File(".\\Alumnos.xml"));
+		
 	}
 	private static void verNotas() throws IOException {
 		File archivo = new File(".\\Alumnos.dat");
