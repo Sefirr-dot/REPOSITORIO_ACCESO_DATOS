@@ -50,6 +50,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Interfaces"/>
 			<item value="Ejercicio2_EXAMEN"/>
 			<item value="Ejercicio1_EXAMEN"/>
 			<item value="PruebaXSD-XML"/>
