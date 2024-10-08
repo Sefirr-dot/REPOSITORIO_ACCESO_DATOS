@@ -18,12 +18,10 @@
     <fullyQualifiedTypeName name="java.lang.LinkageError"/>
     <fullyQualifiedTypeName name="java.awt.RenderingHints"/>
     <fullyQualifiedTypeName name="java.lang.Boolean"/>
-    <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlType"/>
     <fullyQualifiedTypeName name="java.util.jar.Attributes.Name"/>
     <fullyQualifiedTypeName name="claseJAXB.Libreria"/>
     <fullyQualifiedTypeName name="claseJAXB.Libros"/>
     <fullyQualifiedTypeName name="javax.xml.bind.Marshaller"/>
-    <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="ejercicio1.MisLibrerias"/>
     <fullyQualifiedTypeName name="ejercicio1.Libreria"/>
     <fullyQualifiedTypeName name="ejercicio1.Libros"/>
@@ -46,13 +44,18 @@
     <fullyQualifiedTypeName name="datos.Notas"/>
     <fullyQualifiedTypeName name="java.security.PrivateKey"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="ejercicio.Empresas"/>
-    <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlElement"/>
-    <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlRootElement"/>
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="javax.xml.bind.JAXBContext"/>
     <fullyQualifiedTypeName name="ejercicio.ListaEmpresas"/>
     <fullyQualifiedTypeName name="ejercicio.Empleados"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlRootElement"/>
+    <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlElement"/>
+    <fullyQualifiedTypeName name="javax.xml.bind.Unmarshaller"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="clasesdatos.Articulo"/>
+    <fullyQualifiedTypeName name="clasesdatos.VentasArticulos"/>
+    <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlType"/>
 </qualifiedTypeNameHistroy>
