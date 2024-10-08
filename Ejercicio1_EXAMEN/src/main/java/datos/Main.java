@@ -43,9 +43,9 @@ public class Main {
 				System.out.println("Adios!!!");
 				break;
 			default:
-				System.out.println("Elige una opcion valida Ma g");
+				System.out.println("Elige una opcion valida");
 			}
-		} while(opcion !=0);
+		} while(opcion !=5);
 		sc.close();
 	}
 	private static void generarAlumnoXML() throws IOException, JAXBException {
@@ -114,7 +114,7 @@ public class Main {
 	            
 	            int numAlumno2 = archAccessFile2.readInt(); // Leer número de alumno en archivo de notas
 
-	            if (numAlumno == numAlumno2) {
+	            if (numAlumno == numAlumno2 && numAlumno!=0) {
 	            	char asignatura[] = new char[20], auxAsignatura;
 	            	archAccessFile2.seek(posicion2+4);
 	            	for(int i =0;i<asignatura.length;i++) {
@@ -249,7 +249,7 @@ public class Main {
 	        posicion1 += POSICIONALUMNOS; // 92 bytes por cada registro de alumno
 	        
 	        // Reiniciar el puntero del archivo de notas para procesar el próximo alumno
-	        archAccessFile2.seek(0); 
+	         
 	    }
 
 	    // Cerrar archivos

@@ -4,8 +4,9 @@ import java.util.ArrayList;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
+import javax.xml.bind.annotation.XmlType;
 
-
+@XmlType(propOrder = {"numAlumno","nombre","localidad","numAsignaturas","notaMedia","listaNotas"})
 public class Alummno {
 
 	private int numAlumno;
