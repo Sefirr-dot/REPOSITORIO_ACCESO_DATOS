@@ -6480,3 +6480,267 @@
 2024-10-08 18:36:02,896 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:420) - Stopping all threads monitoring thread
 2024-10-08 18:36:02,896 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:425) - Closing ThreadHolder
 2024-10-08 18:36:02,896 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:430) - Shutting down ThreadSupplier
+2024-10-10 19:39:07,384 [main] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:368) - Instantiated org.burningwave.core.SLF4JManagedLoggerRepository
+2024-10-10 19:39:07,388 [main] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:369) - 
+
+	Configuration values for static components:
+
+		background-executor.all-tasks-monitoring.enabled=\
+			true
+		background-executor.all-tasks-monitoring.interval=\
+			30000
+		background-executor.all-tasks-monitoring.logger.enabled=\
+			false
+		background-executor.all-tasks-monitoring.minimum-elapsed-time-to-consider-a-task-as-probable-dead-locked=\
+			300000
+		background-executor.all-tasks-monitoring.probable-dead-locked-tasks-handling.policy=\
+			log only
+		background-executor.queued-task-executor[0].name=\
+			Low priority tasks
+		background-executor.queued-task-executor[0].priority=\
+			1
+		background-executor.queued-task-executor[1].name=\
+			Normal priority tasks
+		background-executor.queued-task-executor[1].priority=\
+			5
+		background-executor.queued-task-executor[2].name=\
+			High priority tasks
+		background-executor.queued-task-executor[2].priority=\
+			10
+		background-executor.task-creation-tracking.enabled=\
+			${background-executor.all-tasks-monitoring.enabled}
+		banner.additonal-informations=\
+			${Implementation-Title} ${Implementation-Version}
+		banner.additonal-informations.retrieve-from-manifest-file-with-implementation-title=\
+			Burningwave Core
+		banner.file=\
+			org/burningwave/banner.bwb
+		banner.hide=\
+			true
+		buffer-handler.default-allocation-mode=\
+			ByteBuffer::allocateDirect
+		buffer-handler.default-buffer-size=\
+			1024
+		group-name-for-named-elements=\
+			Burningwave
+		iterable-object-helper.default-values-separator=\
+			;
+		iterable-object-helper.parallel-iteration.applicability.default-minimum-collection-size=\
+			2
+		iterable-object-helper.parallel-iteration.applicability.max-runtime-thread-count-threshold=\
+			autodetect
+		iterable-object-helper.parallel-iteration.applicability.output-collection-enabled-types=\
+			java.util.concurrent.ConcurrentHashMap$CollectionView;\
+			java.util.Collections$SynchronizedCollection;\
+			java.util.concurrent.CopyOnWriteArrayList;\
+			java.util.concurrent.CopyOnWriteArraySet;\
+			java.util.concurrent.BlockingQueue;\
+			java.util.concurrent.ConcurrentSkipListSet;\
+			java.util.concurrent.ConcurrentSkipListMap$EntrySet;\
+			java.util.concurrent.ConcurrentSkipListMap$KeySet;\
+			java.util.concurrent.ConcurrentSkipListMap$Values;
+		jvm.driver.init=\
+			false
+		managed-logger.repository=\
+			autodetect
+		managed-logger.repository.enabled=\
+			true
+		managed-logger.repository.logging.warn.disabled-for=\
+			org.burningwave.core.assembler.ComponentContainer$ClassLoader;\
+			org.burningwave.core.classes.MemoryClassLoader;\
+			org.burningwave.core.classes.PathScannerClassLoader;
+		modules.export-all-to-all=\
+			true
+		resource-releaser.enabled=\
+			true
+		synchronizer.all-threads-monitoring.enabled=\
+			false
+		synchronizer.all-threads-monitoring.interval=\
+			90000
+		thread-supplier.default-daemon-flag-value=\
+			true
+		thread-supplier.default-thread-priority=\
+			5
+		thread-supplier.max-detached-thread-count=\
+			${thread-supplier.max-poolable-thread-count}
+		thread-supplier.max-detached-thread-count.elapsed-time-threshold-from-last-increase-for-gradual-decreasing-to-initial-value=\
+			30000
+		thread-supplier.max-detached-thread-count.increasing-step=\
+			autodetect
+		thread-supplier.max-poolable-thread-count=\
+			autodetect
+		thread-supplier.poolable-thread-request-timeout=\
+			6000
+
+
+2024-10-10 19:39:07,390 [main] INFO  o.b.core.jvm.BufferHandler - (BufferHandler.java:127) - default buffer size: 1024 bytes
+2024-10-10 19:39:07,390 [main] INFO  o.b.core.jvm.BufferHandler - (BufferHandler.java:141) - default allocation mode: ByteBuffer::allocateDirect
+2024-10-10 19:39:07,395 [main] INFO  org.burningwave.core.Cache - (Cache.java:76) - Building cache
+2024-10-10 19:39:07,418 [main] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:443) - org.burningwave.core.assembler.StaticComponentContainer initialized in 0.1635145 seconds
+2024-10-10 19:39:10,007 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-10-10 19:39:56,594 [Worker-0: Creating project "EjerciciosExamen3"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: AD_Tema1:EjerciciosExamen3:0.0.1-SNAPSHOT @ C:\Users\Alumno\Desktop\ACCESO DATOS\REPOSITORIO_ACCESO_DATOS\EjerciciosExamen3\pom.xml.
+2024-10-10 19:39:57,091 [Worker-0: Creating project "EjerciciosExamen3"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EjerciciosExamen3/src/main/java
+2024-10-10 19:39:57,094 [Worker-0: Creating project "EjerciciosExamen3"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EjerciciosExamen3/src/main/resources
+2024-10-10 19:39:57,095 [Worker-0: Creating project "EjerciciosExamen3"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EjerciciosExamen3/src/test/java
+2024-10-10 19:39:57,095 [Worker-0: Creating project "EjerciciosExamen3"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EjerciciosExamen3/src/test/resources
+2024-10-10 19:39:57,457 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 19:39:57,461 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-10 19:39:57,465 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 19:39:57,466 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-10 19:41:30,870 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-10-10 19:41:30,987 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: AD_Tema1:EjerciciosExamen3:0.0.1-SNAPSHOT @ C:\Users\Alumno\Desktop\ACCESO DATOS\REPOSITORIO_ACCESO_DATOS\EjerciciosExamen3\pom.xml.
+2024-10-10 19:41:31,062 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EjerciciosExamen3/src/main/java
+2024-10-10 19:41:31,064 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EjerciciosExamen3/src/main/resources
+2024-10-10 19:41:31,064 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /EjerciciosExamen3/src/test/java
+2024-10-10 19:41:31,065 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /EjerciciosExamen3/src/test/resources
+2024-10-10 19:41:31,097 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2024-10-10 19:41:31,229 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 19:41:31,230 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-10 19:41:31,234 [Worker-24: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 19:41:31,235 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-10 19:41:40,599 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [1022])
+2024-10-10 19:41:40,600 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2024-10-10 19:41:40,601 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2024-10-10 19:41:40,601 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2024-10-10 19:41:40,601 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2024-10-10 19:41:40,601 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2024-10-10 19:41:40,601 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2024-10-10 19:41:40,601 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2024-10-10 19:41:40,601 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2024-10-10 19:41:40,601 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2024-10-10 19:41:40,601 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2024-10-10 19:41:40,601 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2024-10-10 19:41:40,601 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2024-10-10 19:41:40,601 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2024-10-10 19:41:40,602 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2024-10-10 19:41:40,602 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2024-10-10 19:41:40,602 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2024-10-10 19:41:40,602 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2024-10-10 19:41:40,602 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2024-10-10 19:41:40,602 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2024-10-10 19:41:40,602 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2024-10-10 19:41:40,602 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2024-10-10 19:41:40,602 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2024-10-10 19:41:40,602 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2024-10-10 19:41:40,602 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2024-10-10 19:41:40,603 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2024-10-10 19:41:40,603 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2024-10-10 19:41:40,603 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2024-10-10 19:41:40,603 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2024-10-10 19:41:40,603 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2024-10-10 19:41:40,603 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2024-10-10 19:41:40,603 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2024-10-10 19:41:40,603 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2024-10-10 19:41:40,603 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2024-10-10 19:41:40,603 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2024-10-10 19:41:40,603 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2024-10-10 19:41:40,603 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2024-10-10 19:41:40,603 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2024-10-10 19:41:40,604 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2024-10-10 19:41:40,604 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2024-10-10 19:41:40,604 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2024-10-10 19:41:40,604 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2024-10-10 19:41:40,604 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2024-10-10 19:41:40,604 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2024-10-10 19:41:40,604 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2024-10-10 19:41:40,605 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.0.jre [1014])
+2024-10-10 19:41:40,606 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\com.google.guava_33.3.0.jre.jar
+2024-10-10 19:41:40,606 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [1027])
+2024-10-10 19:41:40,606 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\slf4j.api_2.0.16.jar
+2024-10-10 19:41:40,606 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [33])
+2024-10-10 19:41:40,606 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-10-10 19:41:40,606 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20200909-1856 [44])
+2024-10-10 19:41:40,606 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\javax.annotation_1.3.5.v20200909-1856.jar
+2024-10-10 19:41:40,606 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [1015])
+2024-10-10 19:41:40,606 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.apache.commons.cli_1.9.0.jar
+2024-10-10 19:41:40,606 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [81])
+2024-10-10 19:41:40,607 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-10-10 19:41:40,607 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [17])
+2024-10-10 19:41:40,607 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-10-10 19:41:40,609 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Alumno\Desktop\ACCESO DATOS\REPOSITORIO_ACCESO_DATOS\EjerciciosExamen3":
+2024-10-10 19:41:40,612 [Worker-11: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_EjerciciosExamen3] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2024-10-10 19:42:33,039 [Worker-23: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: AD_Tema1:EjerciciosExamen3:0.0.1-SNAPSHOT @ C:\Users\Alumno\Desktop\ACCESO DATOS\REPOSITORIO_ACCESO_DATOS\EjerciciosExamen3\pom.xml.
+2024-10-10 19:42:33,391 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 19:42:33,393 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-10 19:42:33,396 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 19:42:33,397 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-10 19:42:34,608 [Worker-22: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 19:42:34,609 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-10 19:42:34,610 [Worker-22: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 19:42:34,611 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-10 19:42:44,935 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 19:42:44,937 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-10 19:42:44,939 [Worker-18: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 19:42:44,940 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-10 19:43:09,415 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 19:43:09,416 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-10 19:43:09,417 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 19:43:09,418 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-10 19:55:38,459 [Worker-27: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 19:55:38,461 [Worker-27: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-10 19:55:38,463 [Worker-27: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 19:55:38,464 [Worker-27: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-10 19:56:49,975 [Worker-1: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 19:56:49,976 [Worker-1: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-10 19:56:49,979 [Worker-1: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 19:56:49,980 [Worker-1: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-10 19:56:58,529 [Worker-23: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 19:56:58,531 [Worker-23: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-10 19:56:58,533 [Worker-23: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 19:56:58,535 [Worker-23: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-10 19:57:59,719 [Worker-23: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 19:57:59,720 [Worker-23: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-10 19:57:59,722 [Worker-23: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 19:57:59,724 [Worker-23: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-10 20:01:44,599 [Worker-33: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 20:01:44,600 [Worker-33: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-10 20:01:44,602 [Worker-33: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 20:01:44,603 [Worker-33: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-10 20:02:08,896 [Worker-33: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 20:02:08,897 [Worker-33: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-10 20:02:08,898 [Worker-33: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 20:02:08,899 [Worker-33: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-10 20:02:21,378 [Worker-10: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 20:02:21,379 [Worker-10: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-10 20:02:21,381 [Worker-10: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 20:02:21,382 [Worker-10: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-10 20:24:07,590 [Worker-34: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 20:24:07,592 [Worker-34: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-10 20:24:07,595 [Worker-34: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 20:24:07,596 [Worker-34: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-10 20:24:47,327 [Worker-27: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 20:24:47,328 [Worker-27: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-10 20:24:47,332 [Worker-27: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 20:24:47,333 [Worker-27: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-10 20:27:35,219 [Worker-23: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 20:27:35,221 [Worker-23: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-10 20:27:35,224 [Worker-23: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 20:27:35,226 [Worker-23: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-10 20:28:42,526 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 20:28:42,527 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-10 20:28:42,529 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 20:28:42,530 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-10 20:52:06,397 [Worker-32: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 20:52:06,400 [Worker-32: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-10 20:52:06,404 [Worker-32: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 20:52:06,406 [Worker-32: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-10 20:52:50,204 [Worker-37: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 20:52:50,206 [Worker-37: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-10 20:52:50,209 [Worker-37: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 20:52:50,211 [Worker-37: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-10 20:53:17,176 [Worker-38: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 20:53:17,178 [Worker-38: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-10 20:53:17,181 [Worker-38: Launching Main (2)] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 20:53:17,182 [Worker-38: Launching Main (2)] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-10 20:59:21,743 [Worker-37: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 20:59:21,745 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-10 20:59:21,747 [Worker-37: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 20:59:21,749 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-10 20:59:23,612 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:391) - ... Waiting for all tasks ending
+2024-10-10 20:59:23,614 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:397) - Closing all component containers
+2024-10-10 20:59:23,615 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:403) - Closing FileSystemHelper
+2024-10-10 20:59:23,616 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:409) - ... Waiting for all tasks ending before shutting down the BackgroundExecutor
+2024-10-10 20:59:23,616 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:414) - Shutting down BackgroundExecutor
+2024-10-10 20:59:23,616 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:420) - Stopping all threads monitoring thread
+2024-10-10 20:59:23,617 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:425) - Closing ThreadHolder
+2024-10-10 20:59:23,617 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:430) - Shutting down ThreadSupplier
