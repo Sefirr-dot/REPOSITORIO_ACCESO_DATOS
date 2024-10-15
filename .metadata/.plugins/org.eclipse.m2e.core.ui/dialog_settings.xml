@@ -50,6 +50,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="EXAMEN_EJERCICIO1"/>
 			<item value="EjerciciosExamen3"/>
 			<item value="EjercicioVentaArticulos"/>
 			<item value="Interfaces"/>

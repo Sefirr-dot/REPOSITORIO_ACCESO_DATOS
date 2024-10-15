@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ListaViajes>
+    <viaje>
+        <codviaje>1</codviaje>
+        <lista>
+            <nombrecliente>Alberto Ramiro</nombrecliente>
+            <plazasreservadas>2</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Los viajeros SL</nombrecliente>
+            <plazasreservadas>8</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>ReynaII Viajes</nombrecliente>
+            <plazasreservadas>3</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Reyna Viajes</nombrecliente>
+            <plazasreservadas>3</plazasreservadas>
+        </lista>
+        <nombre>Italia Clásica</nombre>
+        <numplazas>50</numplazas>
+        <numreservas>16</numreservas>
+        <pvp>100</pvp>
+        <totalimporte>1600</totalimporte>
+    </viaje>
+    <viaje>
+        <codviaje>3</codviaje>
+        <lista>
+            <nombrecliente>Viajes RR</nombrecliente>
+            <plazasreservadas>10</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Viajes Locales SA</nombrecliente>
+            <plazasreservadas>10</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Viajes Alamos SL</nombrecliente>
+            <plazasreservadas>9</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Ecuador SL</nombrecliente>
+            <plazasreservadas>2</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Viajes Locales SA</nombrecliente>
+            <plazasreservadas>8</plazasreservadas>
+        </lista>
+        <nombre>Castillos del Loira</nombre>
+        <numplazas>55</numplazas>
+        <numreservas>39</numreservas>
+        <pvp>110</pvp>
+        <totalimporte>4290</totalimporte>
+    </viaje>
+    <viaje>
+        <codviaje>5</codviaje>
+        <lista>
+            <nombrecliente>Ecuador SL</nombrecliente>
+            <plazasreservadas>5</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Viajes RR</nombrecliente>
+            <plazasreservadas>5</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Ecuador SL</nombrecliente>
+            <plazasreservadas>10</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Viajes Alamos SL</nombrecliente>
+            <plazasreservadas>10</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Alberto Ramiro</nombrecliente>
+            <plazasreservadas>10</plazasreservadas>
+        </lista>
+        <nombre>Picos de Europa</nombre>
+        <numplazas>30</numplazas>
+        <numreservas>40</numreservas>
+        <pvp>60</pvp>
+        <totalimporte>2400</totalimporte>
+    </viaje>
+    <viaje>
+        <codviaje>6</codviaje>
+        <lista>
+            <nombrecliente>Viajes Locales SA</nombrecliente>
+            <plazasreservadas>10</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Ecuador SL</nombrecliente>
+            <plazasreservadas>12</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Reyna Viajes</nombrecliente>
+            <plazasreservadas>9</plazasreservadas>
+        </lista>
+        <nombre>Pirineos sin fronteras</nombre>
+        <numplazas>45</numplazas>
+        <numreservas>31</numreservas>
+        <pvp>55</pvp>
+        <totalimporte>1705</totalimporte>
+    </viaje>
+    <viaje>
+        <codviaje>8</codviaje>
+        <lista>
+            <nombrecliente>Los viajeros SL</nombrecliente>
+            <plazasreservadas>8</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Desplazamientos SL</nombrecliente>
+            <plazasreservadas>2</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Educación Física</nombrecliente>
+            <plazasreservadas>10</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Viajes RR</nombrecliente>
+            <plazasreservadas>10</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Viajes RR</nombrecliente>
+            <plazasreservadas>4</plazasreservadas>
+        </lista>
+        <nombre>París nocturno</nombre>
+        <numplazas>60</numplazas>
+        <numreservas>34</numreservas>
+        <pvp>120</pvp>
+        <totalimporte>4080</totalimporte>
+    </viaje>
+    <viaje>
+        <codviaje>9</codviaje>
+        <lista>
+            <nombrecliente>Viajes Alamos SL</nombrecliente>
+            <plazasreservadas>2</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Viajes RR</nombrecliente>
+            <plazasreservadas>9</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Desplazamientos SL</nombrecliente>
+            <plazasreservadas>7</plazasreservadas>
+        </lista>
+        <nombre>Mediterráneo Valenciano</nombre>
+        <numplazas>100</numplazas>
+        <numreservas>18</numreservas>
+        <pvp>75</pvp>
+        <totalimporte>1350</totalimporte>
+    </viaje>
+    <viaje>
+        <codviaje>10</codviaje>
+        <lista>
+            <nombrecliente>Viajes RR</nombrecliente>
+            <plazasreservadas>20</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Viajes Locales SA</nombrecliente>
+            <plazasreservadas>8</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Los viajeros SL</nombrecliente>
+            <plazasreservadas>8</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Ecuador SL</nombrecliente>
+            <plazasreservadas>15</plazasreservadas>
+        </lista>
+        <nombre>Costa Andaluza</nombre>
+        <numplazas>100</numplazas>
+        <numreservas>51</numreservas>
+        <pvp>80</pvp>
+        <totalimporte>4080</totalimporte>
+    </viaje>
+    <viaje>
+        <codviaje>12</codviaje>
+        <lista>
+            <nombrecliente>Los viajeros SL</nombrecliente>
+            <plazasreservadas>8</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Alberto Ramiro</nombrecliente>
+            <plazasreservadas>2</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Viajes Locales SA</nombrecliente>
+            <plazasreservadas>40</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Desplazamientos SL</nombrecliente>
+            <plazasreservadas>5</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Reyna Viajes</nombrecliente>
+            <plazasreservadas>5</plazasreservadas>
+        </lista>
+        <lista>
+            <nombrecliente>Los viajeros SL</nombrecliente>
+            <plazasreservadas>4</plazasreservadas>
+        </lista>
+        <nombre>Portugal Algarve</nombre>
+        <numplazas>50</numplazas>
+        <numreservas>64</numreservas>
+        <pvp>100</pvp>
+        <totalimporte>6400</totalimporte>
+    </viaje>
+</ListaViajes>
