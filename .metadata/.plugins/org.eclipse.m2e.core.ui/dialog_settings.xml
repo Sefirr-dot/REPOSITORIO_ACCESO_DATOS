@@ -45,11 +45,13 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="BasesDatos"/>
 			<item value="AD_Tema1"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="T2_1_PrimeraBaseDatos"/>
 			<item value="EXAMEN_EJERCICIO1"/>
 			<item value="EjerciciosExamen3"/>
 			<item value="EjercicioVentaArticulos"/>

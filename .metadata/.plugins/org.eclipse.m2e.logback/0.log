@@ -8183,3 +8183,470 @@ org.eclipse.core.runtime.CoreException: Launch configuration Principal (2) refer
 2024-10-15 18:37:56,454 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:420) - Stopping all threads monitoring thread
 2024-10-15 18:37:56,455 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:425) - Closing ThreadHolder
 2024-10-15 18:37:56,455 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:430) - Shutting down ThreadSupplier
+2024-10-22 17:34:28,537 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-10-22 17:35:04,312 [Worker-14: Creating project "T2_1_PrimeraBaseDatos"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: BasesDatos:T2_1_PrimeraBaseDatos:0.0.1-SNAPSHOT @ C:\Users\Alumno\Desktop\ACCESO DATOS\REPOSITORIO_ACCESO_DATOS\T2_1_PrimeraBaseDatos\pom.xml.
+2024-10-22 17:35:04,731 [Worker-14: Creating project "T2_1_PrimeraBaseDatos"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /T2_1_PrimeraBaseDatos/src/main/java
+2024-10-22 17:35:04,733 [Worker-14: Creating project "T2_1_PrimeraBaseDatos"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /T2_1_PrimeraBaseDatos/src/main/resources
+2024-10-22 17:35:04,734 [Worker-14: Creating project "T2_1_PrimeraBaseDatos"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /T2_1_PrimeraBaseDatos/src/test/java
+2024-10-22 17:35:04,734 [Worker-14: Creating project "T2_1_PrimeraBaseDatos"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /T2_1_PrimeraBaseDatos/src/test/resources
+2024-10-22 17:35:05,149 [Worker-25: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:35:05,152 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 17:35:05,155 [Worker-25: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:35:05,156 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 17:39:36,331 [Worker-2: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: BasesDatos:T2_1_PrimeraBaseDatos:0.0.1-SNAPSHOT @ C:\Users\Alumno\Desktop\ACCESO DATOS\REPOSITORIO_ACCESO_DATOS\T2_1_PrimeraBaseDatos\pom.xml.
+2024-10-22 17:39:36,830 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/xerial/sqlite-jdbc/3.21.0.1/sqlite-jdbc-3.21.0.1.pom
+2024-10-22 17:39:36,844 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/xerial/sqlite-jdbc/3.21.0.1/sqlite-jdbc-3.21.0.1.pom
+2024-10-22 17:39:36,894 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.49/mysql-connector-java-5.1.49.pom
+2024-10-22 17:39:36,897 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.49/mysql-connector-java-5.1.49.pom
+2024-10-22 17:39:36,948 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/oracle/database/jdbc/ojdbc8/21.7.0.0/ojdbc8-21.7.0.0.pom
+2024-10-22 17:39:36,951 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/oracle/database/jdbc/ojdbc8/21.7.0.0/ojdbc8-21.7.0.0.pom
+2024-10-22 17:39:37,008 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.200/h2-1.4.200.pom
+2024-10-22 17:39:37,011 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.200/h2-1.4.200.pom
+2024-10-22 17:39:37,070 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.pom
+2024-10-22 17:39:37,072 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.pom
+2024-10-22 17:39:37,136 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/derby/derby-project/10.14.2.0/derby-project-10.14.2.0.pom
+2024-10-22 17:39:37,140 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/derby/derby-project/10.14.2.0/derby-project-10.14.2.0.pom
+2024-10-22 17:39:37,191 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom
+2024-10-22 17:39:37,201 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom
+2024-10-22 17:39:37,257 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/sf/ucanaccess/ucanaccess/3.0.3/ucanaccess-3.0.3.pom
+2024-10-22 17:39:37,271 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/sf/ucanaccess/ucanaccess/3.0.3/ucanaccess-3.0.3.pom
+2024-10-22 17:39:37,325 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hsqldb/hsqldb/2.3.1/hsqldb-2.3.1.pom
+2024-10-22 17:39:37,327 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hsqldb/hsqldb/2.3.1/hsqldb-2.3.1.pom
+2024-10-22 17:39:37,393 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/healthmarketscience/jackcess/jackcess/2.1.3/jackcess-2.1.3.pom
+2024-10-22 17:39:37,410 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/healthmarketscience/jackcess/jackcess/2.1.3/jackcess-2.1.3.pom
+2024-10-22 17:39:37,499 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/healthmarketscience/openhms-parent/1.1.4/openhms-parent-1.1.4.pom
+2024-10-22 17:39:37,504 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/healthmarketscience/openhms-parent/1.1.4/openhms-parent-1.1.4.pom
+2024-10-22 17:39:37,572 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+2024-10-22 17:39:37,585 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+2024-10-22 17:39:37,645 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/17/commons-parent-17.pom
+2024-10-22 17:39:37,671 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/17/commons-parent-17.pom
+2024-10-22 17:39:37,726 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/apache/7/apache-7.pom
+2024-10-22 17:39:37,737 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/apache/7/apache-7.pom
+2024-10-22 17:39:37,790 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom
+2024-10-22 17:39:37,798 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom
+2024-10-22 17:39:38,012 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom
+2024-10-22 17:39:38,021 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom
+2024-10-22 17:39:38,095 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.pom
+2024-10-22 17:39:38,097 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.pom
+2024-10-22 17:39:38,153 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/xerial/sqlite-jdbc/3.21.0.1/sqlite-jdbc-3.21.0.1.jar
+2024-10-22 17:39:39,097 [Worker-2: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/xerial/sqlite-jdbc/3.21.0.1/sqlite-jdbc-3.21.0.1.jar
+2024-10-22 17:39:39,150 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.49/mysql-connector-java-5.1.49.jar
+2024-10-22 17:39:39,243 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.49/mysql-connector-java-5.1.49.jar
+2024-10-22 17:39:39,442 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.200/h2-1.4.200.jar
+2024-10-22 17:39:39,448 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hsqldb/hsqldb/2.3.1/hsqldb-2.3.1.jar
+2024-10-22 17:39:39,463 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+2024-10-22 17:39:39,464 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/sf/ucanaccess/ucanaccess/3.0.3/ucanaccess-3.0.3.jar
+2024-10-22 17:39:39,466 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/oracle/database/jdbc/ojdbc8/21.7.0.0/ojdbc8-21.7.0.0.jar
+2024-10-22 17:39:39,654 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hsqldb/hsqldb/2.3.1/hsqldb-2.3.1.jar
+2024-10-22 17:39:39,743 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/healthmarketscience/jackcess/jackcess/2.1.3/jackcess-2.1.3.jar
+2024-10-22 17:39:39,844 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/healthmarketscience/jackcess/jackcess/2.1.3/jackcess-2.1.3.jar
+2024-10-22 17:39:39,897 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/sf/ucanaccess/ucanaccess/3.0.3/ucanaccess-3.0.3.jar
+2024-10-22 17:39:39,922 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+2024-10-22 17:39:39,962 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+2024-10-22 17:39:39,968 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar
+2024-10-22 17:39:40,028 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar
+2024-10-22 17:39:40,079 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.jar
+2024-10-22 17:39:40,176 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.jar
+2024-10-22 17:39:41,378 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.200/h2-1.4.200.jar
+2024-10-22 17:39:42,044 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+2024-10-22 17:39:42,234 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/oracle/database/jdbc/ojdbc8/21.7.0.0/ojdbc8-21.7.0.0.jar
+2024-10-22 17:39:42,349 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:39:42,353 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 17:39:42,357 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:39:42,358 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 17:39:43,479 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/xerial/sqlite-jdbc/3.21.0.1/sqlite-jdbc-3.21.0.1-sources.jar
+2024-10-22 17:39:43,697 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:39:43,698 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 17:39:43,700 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:39:43,701 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 17:39:46,009 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/xerial/sqlite-jdbc/3.21.0.1/sqlite-jdbc-3.21.0.1-sources.jar
+2024-10-22 17:39:46,012 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.xerial:sqlite-jdbc:3.21.0.1
+2024-10-22 17:39:46,210 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.49/mysql-connector-java-5.1.49-sources.jar
+2024-10-22 17:39:46,608 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.49/mysql-connector-java-5.1.49-sources.jar
+2024-10-22 17:39:46,610 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for mysql:mysql-connector-java:5.1.49
+2024-10-22 17:39:46,998 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/oracle/database/jdbc/ojdbc8/21.7.0.0/ojdbc8-21.7.0.0-sources.jar
+2024-10-22 17:39:47,004 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/oracle/database/jdbc/ojdbc8/21.7.0.0/ojdbc8-21.7.0.0-sources.jar
+2024-10-22 17:39:47,006 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.oracle.database.jdbc:ojdbc8:21.7.0.0
+2024-10-22 17:39:47,379 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.200/h2-1.4.200-sources.jar
+2024-10-22 17:39:47,972 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.200/h2-1.4.200-sources.jar
+2024-10-22 17:39:47,974 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.h2database:h2:1.4.200
+2024-10-22 17:39:48,177 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0-sources.jar
+2024-10-22 17:39:48,181 [Worker-8: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.apache.derby:derby:10.14.2.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.derby:derby:jar:sources:10.14.2.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-10-22 17:39:48,684 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/sf/ucanaccess/ucanaccess/3.0.3/ucanaccess-3.0.3-sources.jar
+2024-10-22 17:39:48,929 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/sf/ucanaccess/ucanaccess/3.0.3/ucanaccess-3.0.3-sources.jar
+2024-10-22 17:39:48,931 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.sf.ucanaccess:ucanaccess:3.0.3
+2024-10-22 17:39:49,178 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hsqldb/hsqldb/2.3.1/hsqldb-2.3.1-sources.jar
+2024-10-22 17:39:51,554 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hsqldb/hsqldb/2.3.1/hsqldb-2.3.1-sources.jar
+2024-10-22 17:39:51,555 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hsqldb:hsqldb:2.3.1
+2024-10-22 17:39:51,868 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/healthmarketscience/jackcess/jackcess/2.1.3/jackcess-2.1.3-sources.jar
+2024-10-22 17:39:52,974 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/healthmarketscience/jackcess/jackcess/2.1.3/jackcess-2.1.3-sources.jar
+2024-10-22 17:39:52,976 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.healthmarketscience.jackcess:jackcess:2.1.3
+2024-10-22 17:39:53,217 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar
+2024-10-22 17:39:53,818 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar
+2024-10-22 17:39:53,820 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-lang:commons-lang:2.6
+2024-10-22 17:39:53,996 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar
+2024-10-22 17:39:54,191 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar
+2024-10-22 17:39:54,193 [Worker-8: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-logging:commons-logging:1.1.3
+2024-10-22 17:39:54,448 [Worker-8: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10-sources.jar
+2024-10-22 17:39:54,450 [Worker-8: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for hsqldb:hsqldb:1.8.0.10
+org.eclipse.core.runtime.CoreException: Could not resolve artifact hsqldb:hsqldb:jar:sources:1.8.0.10
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-10-22 17:40:14,134 [Worker-17: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-10-22 17:40:14,238 [Worker-17: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: BasesDatos:T2_1_PrimeraBaseDatos:0.0.1-SNAPSHOT @ C:\Users\Alumno\Desktop\ACCESO DATOS\REPOSITORIO_ACCESO_DATOS\T2_1_PrimeraBaseDatos\pom.xml.
+2024-10-22 17:40:14,328 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /T2_1_PrimeraBaseDatos/src/main/java
+2024-10-22 17:40:14,329 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /T2_1_PrimeraBaseDatos/src/main/resources
+2024-10-22 17:40:14,329 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /T2_1_PrimeraBaseDatos/src/test/java
+2024-10-22 17:40:14,329 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /T2_1_PrimeraBaseDatos/src/test/resources
+2024-10-22 17:40:14,369 [Worker-17: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2024-10-22 17:40:14,515 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:40:14,516 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 17:40:14,519 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:40:14,519 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 17:40:15,488 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0-javadoc.jar
+2024-10-22 17:40:15,489 [Worker-31: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.apache.derby:derby:10.14.2.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.derby:derby:jar:javadoc:10.14.2.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-10-22 17:40:15,747 [Worker-31: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10-javadoc.jar
+2024-10-22 17:40:15,749 [Worker-31: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for hsqldb:hsqldb:1.8.0.10
+org.eclipse.core.runtime.CoreException: Could not resolve artifact hsqldb:hsqldb:jar:javadoc:1.8.0.10
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-10-22 17:40:24,687 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [1022])
+2024-10-22 17:40:24,688 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2024-10-22 17:40:24,688 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2024-10-22 17:40:24,689 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2024-10-22 17:40:24,689 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2024-10-22 17:40:24,689 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2024-10-22 17:40:24,689 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2024-10-22 17:40:24,689 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2024-10-22 17:40:24,689 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2024-10-22 17:40:24,689 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2024-10-22 17:40:24,689 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2024-10-22 17:40:24,689 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2024-10-22 17:40:24,689 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2024-10-22 17:40:24,689 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2024-10-22 17:40:24,689 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2024-10-22 17:40:24,689 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2024-10-22 17:40:24,689 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2024-10-22 17:40:24,689 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2024-10-22 17:40:24,690 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2024-10-22 17:40:24,690 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2024-10-22 17:40:24,690 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2024-10-22 17:40:24,690 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2024-10-22 17:40:24,690 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2024-10-22 17:40:24,690 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2024-10-22 17:40:24,690 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2024-10-22 17:40:24,690 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2024-10-22 17:40:24,690 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2024-10-22 17:40:24,690 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2024-10-22 17:40:24,690 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2024-10-22 17:40:24,690 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2024-10-22 17:40:24,690 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2024-10-22 17:40:24,690 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2024-10-22 17:40:24,690 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2024-10-22 17:40:24,690 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2024-10-22 17:40:24,690 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2024-10-22 17:40:24,691 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2024-10-22 17:40:24,691 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2024-10-22 17:40:24,691 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2024-10-22 17:40:24,691 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2024-10-22 17:40:24,691 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2024-10-22 17:40:24,691 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2024-10-22 17:40:24,691 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2024-10-22 17:40:24,691 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2024-10-22 17:40:24,691 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2024-10-22 17:40:24,691 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2024-10-22 17:40:24,692 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.0.jre [1014])
+2024-10-22 17:40:24,692 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\com.google.guava_33.3.0.jre.jar
+2024-10-22 17:40:24,692 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [1027])
+2024-10-22 17:40:24,692 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\slf4j.api_2.0.16.jar
+2024-10-22 17:40:24,692 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [33])
+2024-10-22 17:40:24,693 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-10-22 17:40:24,693 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20200909-1856 [44])
+2024-10-22 17:40:24,693 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\javax.annotation_1.3.5.v20200909-1856.jar
+2024-10-22 17:40:24,693 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [1015])
+2024-10-22 17:40:24,693 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.apache.commons.cli_1.9.0.jar
+2024-10-22 17:40:24,693 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [81])
+2024-10-22 17:40:24,693 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-10-22 17:40:24,693 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [17])
+2024-10-22 17:40:24,693 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-10-22 17:40:24,695 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Alumno\Desktop\ACCESO DATOS\REPOSITORIO_ACCESO_DATOS\T2_1_PrimeraBaseDatos":
+2024-10-22 17:40:24,698 [Worker-17: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_T2_1_PrimeraBaseDatos] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2024-10-22 17:40:52,970 [ModalContext] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:368) - Instantiated org.burningwave.core.SLF4JManagedLoggerRepository
+2024-10-22 17:40:52,972 [ModalContext] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:369) - 
+
+	Configuration values for static components:
+
+		background-executor.all-tasks-monitoring.enabled=\
+			true
+		background-executor.all-tasks-monitoring.interval=\
+			30000
+		background-executor.all-tasks-monitoring.logger.enabled=\
+			false
+		background-executor.all-tasks-monitoring.minimum-elapsed-time-to-consider-a-task-as-probable-dead-locked=\
+			300000
+		background-executor.all-tasks-monitoring.probable-dead-locked-tasks-handling.policy=\
+			log only
+		background-executor.queued-task-executor[0].name=\
+			Low priority tasks
+		background-executor.queued-task-executor[0].priority=\
+			1
+		background-executor.queued-task-executor[1].name=\
+			Normal priority tasks
+		background-executor.queued-task-executor[1].priority=\
+			5
+		background-executor.queued-task-executor[2].name=\
+			High priority tasks
+		background-executor.queued-task-executor[2].priority=\
+			10
+		background-executor.task-creation-tracking.enabled=\
+			${background-executor.all-tasks-monitoring.enabled}
+		banner.additonal-informations=\
+			${Implementation-Title} ${Implementation-Version}
+		banner.additonal-informations.retrieve-from-manifest-file-with-implementation-title=\
+			Burningwave Core
+		banner.file=\
+			org/burningwave/banner.bwb
+		banner.hide=\
+			true
+		buffer-handler.default-allocation-mode=\
+			ByteBuffer::allocateDirect
+		buffer-handler.default-buffer-size=\
+			1024
+		group-name-for-named-elements=\
+			Burningwave
+		iterable-object-helper.default-values-separator=\
+			;
+		iterable-object-helper.parallel-iteration.applicability.default-minimum-collection-size=\
+			2
+		iterable-object-helper.parallel-iteration.applicability.max-runtime-thread-count-threshold=\
+			autodetect
+		iterable-object-helper.parallel-iteration.applicability.output-collection-enabled-types=\
+			java.util.concurrent.ConcurrentHashMap$CollectionView;\
+			java.util.Collections$SynchronizedCollection;\
+			java.util.concurrent.CopyOnWriteArrayList;\
+			java.util.concurrent.CopyOnWriteArraySet;\
+			java.util.concurrent.BlockingQueue;\
+			java.util.concurrent.ConcurrentSkipListSet;\
+			java.util.concurrent.ConcurrentSkipListMap$EntrySet;\
+			java.util.concurrent.ConcurrentSkipListMap$KeySet;\
+			java.util.concurrent.ConcurrentSkipListMap$Values;
+		jvm.driver.init=\
+			false
+		managed-logger.repository=\
+			autodetect
+		managed-logger.repository.enabled=\
+			true
+		managed-logger.repository.logging.warn.disabled-for=\
+			org.burningwave.core.assembler.ComponentContainer$ClassLoader;\
+			org.burningwave.core.classes.MemoryClassLoader;\
+			org.burningwave.core.classes.PathScannerClassLoader;
+		modules.export-all-to-all=\
+			true
+		resource-releaser.enabled=\
+			true
+		synchronizer.all-threads-monitoring.enabled=\
+			false
+		synchronizer.all-threads-monitoring.interval=\
+			90000
+		thread-supplier.default-daemon-flag-value=\
+			true
+		thread-supplier.default-thread-priority=\
+			5
+		thread-supplier.max-detached-thread-count=\
+			${thread-supplier.max-poolable-thread-count}
+		thread-supplier.max-detached-thread-count.elapsed-time-threshold-from-last-increase-for-gradual-decreasing-to-initial-value=\
+			30000
+		thread-supplier.max-detached-thread-count.increasing-step=\
+			autodetect
+		thread-supplier.max-poolable-thread-count=\
+			autodetect
+		thread-supplier.poolable-thread-request-timeout=\
+			6000
+
+
+2024-10-22 17:40:52,974 [ModalContext] INFO  o.b.core.jvm.BufferHandler - (BufferHandler.java:127) - default buffer size: 1024 bytes
+2024-10-22 17:40:52,974 [ModalContext] INFO  o.b.core.jvm.BufferHandler - (BufferHandler.java:141) - default allocation mode: ByteBuffer::allocateDirect
+2024-10-22 17:40:52,978 [ModalContext] INFO  org.burningwave.core.Cache - (Cache.java:76) - Building cache
+2024-10-22 17:40:52,996 [ModalContext] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:443) - org.burningwave.core.assembler.StaticComponentContainer initialized in 0.0844048 seconds
+2024-10-22 17:40:53,407 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:40:53,410 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 17:40:53,412 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:40:53,413 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 17:45:20,599 [Worker-33: Launching PruebaMySQL] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:45:20,601 [Worker-33: Launching PruebaMySQL] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 17:45:20,604 [Worker-33: Launching PruebaMySQL] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:45:20,606 [Worker-33: Launching PruebaMySQL] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 17:47:57,528 [Worker-32: Launching PruebaMySQL] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:47:57,530 [Worker-32: Launching PruebaMySQL] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 17:47:57,532 [Worker-32: Launching PruebaMySQL] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:47:57,533 [Worker-32: Launching PruebaMySQL] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 17:48:32,807 [Worker-32: Launching PruebaMySQL] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:48:32,809 [Worker-32: Launching PruebaMySQL] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 17:48:32,812 [Worker-32: Launching PruebaMySQL] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:48:32,813 [Worker-32: Launching PruebaMySQL] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 17:50:57,883 [Worker-17: Launching PruebaMySQL] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:50:57,885 [Worker-17: Launching PruebaMySQL] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 17:50:57,886 [Worker-17: Launching PruebaMySQL] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:50:57,887 [Worker-17: Launching PruebaMySQL] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 17:51:03,323 [Worker-34: Launching PruebaMySQL] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:51:03,325 [Worker-34: Launching PruebaMySQL] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 17:51:03,328 [Worker-34: Launching PruebaMySQL] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:51:03,329 [Worker-34: Launching PruebaMySQL] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 17:51:10,250 [Worker-35: Launching PruebaMySQL] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:51:10,251 [Worker-35: Launching PruebaMySQL] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 17:51:10,254 [Worker-35: Launching PruebaMySQL] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:51:10,255 [Worker-35: Launching PruebaMySQL] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 17:55:35,434 [Worker-17: Launching PruebaMySQL] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:55:35,435 [Worker-17: Launching PruebaMySQL] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 17:55:35,437 [Worker-17: Launching PruebaMySQL] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:55:35,438 [Worker-17: Launching PruebaMySQL] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 17:58:47,797 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:58:47,799 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 17:58:47,801 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:58:47,802 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 17:59:26,142 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:59:26,143 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 17:59:26,145 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 17:59:26,146 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 18:01:17,235 [Worker-39: Launching Empleadoos] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:01:17,245 [Worker-39: Launching Empleadoos] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 18:01:17,250 [Worker-39: Launching Empleadoos] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:01:17,252 [Worker-39: Launching Empleadoos] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 18:01:40,215 [Worker-40: Launching Empleadoos] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:01:40,216 [Worker-40: Launching Empleadoos] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 18:01:40,219 [Worker-40: Launching Empleadoos] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:01:40,220 [Worker-40: Launching Empleadoos] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 18:02:12,122 [Worker-41: Launching Empleadoos] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:02:12,124 [Worker-41: Launching Empleadoos] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 18:02:12,126 [Worker-41: Launching Empleadoos] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:02:12,128 [Worker-41: Launching Empleadoos] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 18:02:26,421 [Worker-41: Launching Empleadoos] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:02:26,422 [Worker-41: Launching Empleadoos] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 18:02:26,424 [Worker-41: Launching Empleadoos] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:02:26,425 [Worker-41: Launching Empleadoos] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 18:02:43,631 [Worker-39: Launching Empleadoos] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:02:43,632 [Worker-39: Launching Empleadoos] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 18:02:43,634 [Worker-39: Launching Empleadoos] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:02:43,637 [Worker-39: Launching Empleadoos] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 18:02:49,625 [Worker-39: Launching Empleadoos] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:02:49,626 [Worker-39: Launching Empleadoos] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 18:02:49,640 [Worker-39: Launching Empleadoos] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:02:49,642 [Worker-39: Launching Empleadoos] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 18:03:14,867 [Worker-41: Launching Empleadoos] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:03:14,868 [Worker-41: Launching Empleadoos] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 18:03:14,871 [Worker-41: Launching Empleadoos] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:03:14,872 [Worker-41: Launching Empleadoos] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 18:03:25,486 [Worker-34: Launching Empleadoos] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:03:25,488 [Worker-34: Launching Empleadoos] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 18:03:25,490 [Worker-34: Launching Empleadoos] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:03:25,492 [Worker-34: Launching Empleadoos] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 18:04:06,507 [Worker-34: Launching Empleadoos] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:04:06,508 [Worker-34: Launching Empleadoos] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 18:04:06,510 [Worker-34: Launching Empleadoos] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:04:06,511 [Worker-34: Launching Empleadoos] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 18:04:13,279 [Worker-40: Launching Empleadoos] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:04:13,280 [Worker-40: Launching Empleadoos] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 18:04:13,282 [Worker-40: Launching Empleadoos] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:04:13,292 [Worker-40: Launching Empleadoos] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 18:04:28,680 [Worker-41: Launching Empleadoos] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:04:28,682 [Worker-41: Launching Empleadoos] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 18:04:28,685 [Worker-41: Launching Empleadoos] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:04:28,687 [Worker-41: Launching Empleadoos] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 18:05:08,212 [Worker-8: Launching Empleadoos] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:05:08,213 [Worker-8: Launching Empleadoos] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 18:05:08,215 [Worker-8: Launching Empleadoos] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:05:08,216 [Worker-8: Launching Empleadoos] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 18:10:29,385 [Worker-42: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:10:29,386 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 18:10:29,388 [Worker-42: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:10:29,389 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 18:12:09,066 [Worker-43: Launching Empleados2] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:12:09,068 [Worker-43: Launching Empleados2] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 18:12:09,070 [Worker-43: Launching Empleados2] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:12:09,071 [Worker-43: Launching Empleados2] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 18:12:25,395 [Worker-40: Launching Empleados2] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:12:25,397 [Worker-40: Launching Empleados2] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 18:12:25,398 [Worker-40: Launching Empleados2] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:12:25,399 [Worker-40: Launching Empleados2] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 18:13:01,332 [Worker-42: Launching Empleados2] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:13:01,335 [Worker-42: Launching Empleados2] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 18:13:01,340 [Worker-42: Launching Empleados2] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:13:01,341 [Worker-42: Launching Empleados2] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 18:13:17,446 [Worker-39: Launching Empleados2] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:13:17,448 [Worker-39: Launching Empleados2] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-10-22 18:13:17,450 [Worker-39: Launching Empleados2] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-22 18:13:17,451 [Worker-39: Launching Empleados2] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-10-22 18:43:30,748 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:391) - ... Waiting for all tasks ending
+2024-10-22 18:43:30,749 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:397) - Closing all component containers
+2024-10-22 18:43:30,750 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:403) - Closing FileSystemHelper
+2024-10-22 18:43:30,751 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:409) - ... Waiting for all tasks ending before shutting down the BackgroundExecutor
+2024-10-22 18:43:30,751 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:414) - Shutting down BackgroundExecutor
+2024-10-22 18:43:30,751 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:420) - Stopping all threads monitoring thread
+2024-10-22 18:43:30,751 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:425) - Closing ThreadHolder
+2024-10-22 18:43:30,752 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:430) - Shutting down ThreadSupplier
