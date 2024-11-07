@@ -49,14 +49,14 @@ public class PruebaGestoresJava {
 		mostrarColumnas(columnas);
 
 		
-		System.out.println("-----------ORACLE-----------");
-		connection  = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:free", "C##miguel","Ora1234");
-		dbmd = connection.getMetaData();
-		resul = dbmd.getTables(null, "C##MIGUEL", null, null ); // EJEMPLO es el usuario 
-		listarDepartamentos(connection);
-		informacionTablas(resul);
-		columnas = dbmd.getColumns(null, "C##MIGUEL", "DEPARTAMENTOS", null);
-		mostrarColumnas(columnas);
+//		System.out.println("-----------ORACLE-----------");
+//		connection  = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:free", "C##miguel","Ora1234");
+//		dbmd = connection.getMetaData();
+//		resul = dbmd.getTables(null, "C##MIGUEL", null, null ); // EJEMPLO es el usuario 
+//		listarDepartamentos(connection);
+//		informacionTablas(resul);
+//		columnas = dbmd.getColumns(null, "C##MIGUEL", "DEPARTAMENTOS", null);
+//		mostrarColumnas(columnas);
 		
 		System.out.println("-----------MYSQL-----------");
 		connection = DriverManager.getConnection("jdbc:mysql://localhost/ejemplo","root", "");
@@ -67,6 +67,14 @@ public class PruebaGestoresJava {
 	    informacionTablas(resul);
 	    columnas = dbmd.getColumns(null, "ejemplo", "departamentos", null);
 		mostrarColumnas(columnas);
+		
+		ResultSet proc = dbmd.getProcedures(null, "ejemplo", null); 
+		while (proc.next()) { 
+		   String proc_name = proc.getString("PROCEDURE_NAME"); 
+		   String proc_type = proc.getString("PROCEDURE_TYPE"); 
+		   System.out.printf("Nombre Procedimiento: %s - Tipo: %s %n", 
+		                      proc_name, proc_type); 
+		} 
 		
 	}
 	
