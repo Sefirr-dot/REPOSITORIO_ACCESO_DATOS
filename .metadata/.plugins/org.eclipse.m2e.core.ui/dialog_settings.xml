@@ -51,6 +51,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="AD_EJERCICIO_TIPO_EXAMEN"/>
 			<item value="T2_1_PrimeraBaseDatos"/>
 			<item value="EXAMEN_EJERCICIO1"/>
 			<item value="EjerciciosExamen3"/>

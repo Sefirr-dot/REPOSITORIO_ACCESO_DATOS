@@ -10398,3 +10398,285 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact hsqldb:hsqldb
 2024-11-07 21:03:50,796 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:420) - Stopping all threads monitoring thread
 2024-11-07 21:03:50,796 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:425) - Closing ThreadHolder
 2024-11-07 21:03:50,796 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:430) - Shutting down ThreadSupplier
+2024-11-19 15:45:33,836 [main] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:368) - Instantiated org.burningwave.core.SLF4JManagedLoggerRepository
+2024-11-19 15:45:33,836 [main] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:369) - 
+
+	Configuration values for static components:
+
+		background-executor.all-tasks-monitoring.enabled=\
+			true
+		background-executor.all-tasks-monitoring.interval=\
+			30000
+		background-executor.all-tasks-monitoring.logger.enabled=\
+			false
+		background-executor.all-tasks-monitoring.minimum-elapsed-time-to-consider-a-task-as-probable-dead-locked=\
+			300000
+		background-executor.all-tasks-monitoring.probable-dead-locked-tasks-handling.policy=\
+			log only
+		background-executor.queued-task-executor[0].name=\
+			Low priority tasks
+		background-executor.queued-task-executor[0].priority=\
+			1
+		background-executor.queued-task-executor[1].name=\
+			Normal priority tasks
+		background-executor.queued-task-executor[1].priority=\
+			5
+		background-executor.queued-task-executor[2].name=\
+			High priority tasks
+		background-executor.queued-task-executor[2].priority=\
+			10
+		background-executor.task-creation-tracking.enabled=\
+			${background-executor.all-tasks-monitoring.enabled}
+		banner.additonal-informations=\
+			${Implementation-Title} ${Implementation-Version}
+		banner.additonal-informations.retrieve-from-manifest-file-with-implementation-title=\
+			Burningwave Core
+		banner.file=\
+			org/burningwave/banner.bwb
+		banner.hide=\
+			true
+		buffer-handler.default-allocation-mode=\
+			ByteBuffer::allocateDirect
+		buffer-handler.default-buffer-size=\
+			1024
+		group-name-for-named-elements=\
+			Burningwave
+		iterable-object-helper.default-values-separator=\
+			;
+		iterable-object-helper.parallel-iteration.applicability.default-minimum-collection-size=\
+			2
+		iterable-object-helper.parallel-iteration.applicability.max-runtime-thread-count-threshold=\
+			autodetect
+		iterable-object-helper.parallel-iteration.applicability.output-collection-enabled-types=\
+			java.util.concurrent.ConcurrentHashMap$CollectionView;\
+			java.util.Collections$SynchronizedCollection;\
+			java.util.concurrent.CopyOnWriteArrayList;\
+			java.util.concurrent.CopyOnWriteArraySet;\
+			java.util.concurrent.BlockingQueue;\
+			java.util.concurrent.ConcurrentSkipListSet;\
+			java.util.concurrent.ConcurrentSkipListMap$EntrySet;\
+			java.util.concurrent.ConcurrentSkipListMap$KeySet;\
+			java.util.concurrent.ConcurrentSkipListMap$Values;
+		jvm.driver.init=\
+			false
+		managed-logger.repository=\
+			autodetect
+		managed-logger.repository.enabled=\
+			true
+		managed-logger.repository.logging.warn.disabled-for=\
+			org.burningwave.core.assembler.ComponentContainer$ClassLoader;\
+			org.burningwave.core.classes.MemoryClassLoader;\
+			org.burningwave.core.classes.PathScannerClassLoader;
+		modules.export-all-to-all=\
+			true
+		resource-releaser.enabled=\
+			true
+		synchronizer.all-threads-monitoring.enabled=\
+			false
+		synchronizer.all-threads-monitoring.interval=\
+			90000
+		thread-supplier.default-daemon-flag-value=\
+			true
+		thread-supplier.default-thread-priority=\
+			5
+		thread-supplier.max-detached-thread-count=\
+			${thread-supplier.max-poolable-thread-count}
+		thread-supplier.max-detached-thread-count.elapsed-time-threshold-from-last-increase-for-gradual-decreasing-to-initial-value=\
+			30000
+		thread-supplier.max-detached-thread-count.increasing-step=\
+			autodetect
+		thread-supplier.max-poolable-thread-count=\
+			autodetect
+		thread-supplier.poolable-thread-request-timeout=\
+			6000
+
+
+2024-11-19 15:45:33,836 [main] INFO  o.b.core.jvm.BufferHandler - (BufferHandler.java:127) - default buffer size: 1024 bytes
+2024-11-19 15:45:33,836 [main] INFO  o.b.core.jvm.BufferHandler - (BufferHandler.java:141) - default allocation mode: ByteBuffer::allocateDirect
+2024-11-19 15:45:33,836 [main] INFO  org.burningwave.core.Cache - (Cache.java:76) - Building cache
+2024-11-19 15:45:33,852 [main] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:443) - org.burningwave.core.assembler.StaticComponentContainer initialized in 0.0928549 seconds
+2024-11-19 15:45:35,402 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-11-19 16:07:13,770 [Worker-32: Creating project "AD_EJERCICIO_TIPO_EXAMEN"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: BasesDatos:AD_EJERCICIO_TIPO_EXAMEN:0.0.1-SNAPSHOT @ C:\Users\Alumno\Desktop\ACCESO DATOS\REPOSITORIO_ACCESO_DATOS\AD_EJERCICIO_TIPO_EXAMEN\pom.xml.
+2024-11-19 16:07:14,384 [Worker-32: Creating project "AD_EJERCICIO_TIPO_EXAMEN"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AD_EJERCICIO_TIPO_EXAMEN/src/main/java
+2024-11-19 16:07:14,387 [Worker-32: Creating project "AD_EJERCICIO_TIPO_EXAMEN"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AD_EJERCICIO_TIPO_EXAMEN/src/main/resources
+2024-11-19 16:07:14,388 [Worker-32: Creating project "AD_EJERCICIO_TIPO_EXAMEN"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AD_EJERCICIO_TIPO_EXAMEN/src/test/java
+2024-11-19 16:07:14,389 [Worker-32: Creating project "AD_EJERCICIO_TIPO_EXAMEN"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AD_EJERCICIO_TIPO_EXAMEN/src/test/resources
+2024-11-19 16:07:14,815 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-19 16:07:14,820 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-19 16:07:14,825 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-19 16:07:14,826 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-11-19 16:07:26,020 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-19 16:07:26,021 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-19 16:07:26,023 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-19 16:07:26,025 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-11-19 16:08:00,063 [Worker-30: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: BasesDatos:AD_EJERCICIO_TIPO_EXAMEN:0.0.1-SNAPSHOT @ C:\Users\Alumno\Desktop\ACCESO DATOS\REPOSITORIO_ACCESO_DATOS\AD_EJERCICIO_TIPO_EXAMEN\pom.xml.
+2024-11-19 16:08:00,139 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-19 16:08:00,144 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-19 16:08:00,147 [Worker-30: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-19 16:08:00,148 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-11-19 16:08:01,293 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-19 16:08:01,294 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-19 16:08:01,295 [Worker-31: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-19 16:08:01,297 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-11-19 16:08:10,790 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [1022])
+2024-11-19 16:08:10,791 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2024-11-19 16:08:10,791 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2024-11-19 16:08:10,791 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2024-11-19 16:08:10,791 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2024-11-19 16:08:10,791 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2024-11-19 16:08:10,791 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2024-11-19 16:08:10,792 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2024-11-19 16:08:10,792 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2024-11-19 16:08:10,792 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2024-11-19 16:08:10,792 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2024-11-19 16:08:10,792 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2024-11-19 16:08:10,792 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2024-11-19 16:08:10,792 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2024-11-19 16:08:10,792 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2024-11-19 16:08:10,792 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2024-11-19 16:08:10,792 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2024-11-19 16:08:10,792 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2024-11-19 16:08:10,792 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2024-11-19 16:08:10,792 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2024-11-19 16:08:10,792 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2024-11-19 16:08:10,793 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2024-11-19 16:08:10,793 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2024-11-19 16:08:10,793 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2024-11-19 16:08:10,793 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2024-11-19 16:08:10,793 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2024-11-19 16:08:10,793 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2024-11-19 16:08:10,793 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2024-11-19 16:08:10,793 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2024-11-19 16:08:10,793 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2024-11-19 16:08:10,793 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2024-11-19 16:08:10,793 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2024-11-19 16:08:10,793 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2024-11-19 16:08:10,793 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2024-11-19 16:08:10,793 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2024-11-19 16:08:10,794 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2024-11-19 16:08:10,794 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2024-11-19 16:08:10,794 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2024-11-19 16:08:10,794 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2024-11-19 16:08:10,794 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2024-11-19 16:08:10,794 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2024-11-19 16:08:10,794 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2024-11-19 16:08:10,794 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2024-11-19 16:08:10,794 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2024-11-19 16:08:10,794 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2024-11-19 16:08:10,795 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.0.jre [1014])
+2024-11-19 16:08:10,796 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\com.google.guava_33.3.0.jre.jar
+2024-11-19 16:08:10,796 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [1027])
+2024-11-19 16:08:10,796 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\slf4j.api_2.0.16.jar
+2024-11-19 16:08:10,796 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [33])
+2024-11-19 16:08:10,796 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-11-19 16:08:10,796 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20200909-1856 [44])
+2024-11-19 16:08:10,796 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\javax.annotation_1.3.5.v20200909-1856.jar
+2024-11-19 16:08:10,796 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [1015])
+2024-11-19 16:08:10,796 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.apache.commons.cli_1.9.0.jar
+2024-11-19 16:08:10,797 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [81])
+2024-11-19 16:08:10,797 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-11-19 16:08:10,797 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [17])
+2024-11-19 16:08:10,797 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-11-19 16:08:10,802 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Alumno\Desktop\ACCESO DATOS\REPOSITORIO_ACCESO_DATOS\AD_EJERCICIO_TIPO_EXAMEN":
+2024-11-19 16:08:10,804 [Worker-32: Launching Executing clean in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
+2024-11-19 16:08:13,536 [Worker-32: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-19 16:08:13,537 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-19 16:08:13,540 [Worker-32: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-19 16:08:13,541 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-11-19 16:08:26,906 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [1022])
+2024-11-19 16:08:26,907 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2024-11-19 16:08:26,907 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2024-11-19 16:08:26,908 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2024-11-19 16:08:26,908 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2024-11-19 16:08:26,908 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2024-11-19 16:08:26,908 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2024-11-19 16:08:26,908 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2024-11-19 16:08:26,908 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2024-11-19 16:08:26,908 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2024-11-19 16:08:26,908 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2024-11-19 16:08:26,908 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2024-11-19 16:08:26,908 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2024-11-19 16:08:26,908 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2024-11-19 16:08:26,909 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2024-11-19 16:08:26,909 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2024-11-19 16:08:26,909 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2024-11-19 16:08:26,909 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2024-11-19 16:08:26,909 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2024-11-19 16:08:26,909 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2024-11-19 16:08:26,909 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2024-11-19 16:08:26,909 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2024-11-19 16:08:26,909 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2024-11-19 16:08:26,909 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2024-11-19 16:08:26,909 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2024-11-19 16:08:26,909 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2024-11-19 16:08:26,909 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2024-11-19 16:08:26,909 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2024-11-19 16:08:26,909 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2024-11-19 16:08:26,910 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2024-11-19 16:08:26,910 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2024-11-19 16:08:26,910 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2024-11-19 16:08:26,910 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2024-11-19 16:08:26,910 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2024-11-19 16:08:26,910 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2024-11-19 16:08:26,910 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2024-11-19 16:08:26,910 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2024-11-19 16:08:26,910 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2024-11-19 16:08:26,910 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2024-11-19 16:08:26,910 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2024-11-19 16:08:26,910 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2024-11-19 16:08:26,910 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2024-11-19 16:08:26,910 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2024-11-19 16:08:26,910 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2024-11-19 16:08:26,910 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2024-11-19 16:08:26,911 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.0.jre [1014])
+2024-11-19 16:08:26,911 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\com.google.guava_33.3.0.jre.jar
+2024-11-19 16:08:26,911 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [1027])
+2024-11-19 16:08:26,911 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\slf4j.api_2.0.16.jar
+2024-11-19 16:08:26,911 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [33])
+2024-11-19 16:08:26,911 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-11-19 16:08:26,911 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20200909-1856 [44])
+2024-11-19 16:08:26,911 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\javax.annotation_1.3.5.v20200909-1856.jar
+2024-11-19 16:08:26,911 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [1015])
+2024-11-19 16:08:26,912 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.apache.commons.cli_1.9.0.jar
+2024-11-19 16:08:26,912 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [81])
+2024-11-19 16:08:26,912 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-11-19 16:08:26,912 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [17])
+2024-11-19 16:08:26,912 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Public\Downloads\eclipse\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-11-19 16:08:26,913 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Alumno\Desktop\ACCESO DATOS\REPOSITORIO_ACCESO_DATOS\AD_EJERCICIO_TIPO_EXAMEN":
+2024-11-19 16:08:26,913 [Worker-31: Launching Executing install in C__Users_Alumno_Desktop_ACCESO DATOS_REPOSITORIO_ACCESO_DATOS_AD_EJERCICIO_TIPO_EXAMEN] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2024-11-19 16:09:13,450 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-19 16:09:13,453 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-19 16:09:13,456 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-19 16:09:13,457 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-11-19 16:38:34,970 [Worker-33: Launching JardineriaApp] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-19 16:38:34,973 [Worker-33: Launching JardineriaApp] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-19 16:38:34,976 [Worker-33: Launching JardineriaApp] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-19 16:38:34,978 [Worker-33: Launching JardineriaApp] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-11-19 16:40:31,093 [Worker-35: Launching JardineriaApp] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-19 16:40:31,095 [Worker-35: Launching JardineriaApp] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-19 16:40:31,100 [Worker-35: Launching JardineriaApp] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-19 16:40:31,102 [Worker-35: Launching JardineriaApp] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-11-19 16:41:45,600 [Worker-39: Launching JardineriaApp] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-19 16:41:45,602 [Worker-39: Launching JardineriaApp] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-19 16:41:45,606 [Worker-39: Launching JardineriaApp] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-19 16:41:45,607 [Worker-39: Launching JardineriaApp] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-11-19 16:46:18,715 [Worker-37: Launching JardineriaApp] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-19 16:46:18,716 [Worker-37: Launching JardineriaApp] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-19 16:46:18,719 [Worker-37: Launching JardineriaApp] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-19 16:46:18,721 [Worker-37: Launching JardineriaApp] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-11-19 16:49:38,404 [Worker-41: Launching JardineriaApp] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-19 16:49:38,406 [Worker-41: Launching JardineriaApp] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-19 16:49:38,408 [Worker-41: Launching JardineriaApp] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-19 16:49:38,410 [Worker-41: Launching JardineriaApp] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-11-19 17:11:33,331 [Worker-9: Launching JardineriaApp] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-19 17:11:33,333 [Worker-9: Launching JardineriaApp] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-19 17:11:33,336 [Worker-9: Launching JardineriaApp] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-11-19 17:11:33,337 [Worker-9: Launching JardineriaApp] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-11-19 18:43:01,244 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:391) - ... Waiting for all tasks ending
+2024-11-19 18:43:01,245 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:397) - Closing all component containers
+2024-11-19 18:43:01,247 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:403) - Closing FileSystemHelper
+2024-11-19 18:43:01,248 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:409) - ... Waiting for all tasks ending before shutting down the BackgroundExecutor
+2024-11-19 18:43:01,248 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:414) - Shutting down BackgroundExecutor
+2024-11-19 18:43:01,249 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:420) - Stopping all threads monitoring thread
+2024-11-19 18:43:01,249 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:425) - Closing ThreadHolder
+2024-11-19 18:43:01,250 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:430) - Shutting down ThreadSupplier
