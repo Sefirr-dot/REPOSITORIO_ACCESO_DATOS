@@ -234,4 +234,8 @@
 <uri name="http://www.w3.org/2001/XMLSchema" uri="jar:file:/C:/Users/Public/Downloads/eclipse/plugins/org.eclipse.xsd_2.20.0.v20240604-0832.jar!/cache/www.w3.org/2001/XMLSchema.xsd"/>
 <system systemId="http://www.w3.org/2001/xml.xsd" uri="jar:file:/C:/Users/Public/Downloads/eclipse/plugins/org.eclipse.xsd_2.20.0.v20240604-0832.jar!/cache/www.w3.org/2001/xml.xsd"/>
 <uri name="http://www.w3.org/2001/XInclude" uri="jar:file:/C:/Users/Public/Downloads/eclipse/plugins/org.eclipse.wst.xsl.core_1.2.200.v202405130119.jar!/xslt-schemas/xinclude.xsd"/>
+<public publicId="-//Hibernate/Hibernate Mapping DTD 3.0//EN" uri="file:///C:/Users/Public/Downloads/eclipse/plugins/org.hibernate.eclipse.mapper_5.4.23.v20231123-1018/dtd/hibernate-mapping-3.0.dtd"/>
+<public publicId="-//Hibernate/Hibernate Configuration DTD 3.0//EN" uri="file:///C:/Users/Public/Downloads/eclipse/plugins/org.hibernate.eclipse.mapper_5.4.23.v20231123-1018/dtd/hibernate-configuration-3.0.dtd"/>
+<public publicId="-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" uri="file:///C:/Users/Public/Downloads/eclipse/plugins/org.hibernate.eclipse.mapper_5.4.23.v20231123-1018/dtd/hibernate-reverse-engineering-3.0.dtd"/>
+<public publicId="-//Red Hat, Inc.//DTD Meta 1.0//EN" uri="file:///C:/Users/Public/Downloads/eclipse/plugins/org.jboss.tools.common.model_3.18.0.v20230908-0745/schema/meta.dtd"/>
 </catalog>

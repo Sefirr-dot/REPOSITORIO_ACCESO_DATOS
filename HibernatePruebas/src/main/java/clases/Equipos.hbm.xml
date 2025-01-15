@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 8 ene 2025, 19:08:51 by Hibernate Tools 5.6.15.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class catalog="ciclistas2" name="clases.Equipos" optimistic-lock="none" table="equipos">
+        <id name="codigoequipo" type="int">
+            <column name="codigoequipo"/>
+            <generator class="assigned"/>
+        </id>
+        <property name="nombreequipo" type="string">
+            <column length="35" name="nombreequipo" not-null="true"/>
+        </property>
+        <property name="director" type="string">
+            <column length="40" name="director" not-null="true"/>
+        </property>
+        <property name="pais" type="string">
+            <column length="3" name="pais" not-null="true"/>
+        </property>
+        <set fetch="select" inverse="true" lazy="true" name="resumenCamisetases" table="resumen_camisetas">
+            <key>
+                <column name="codigoequipo" not-null="true"/>
+            </key>
+            <one-to-many class="clases.ResumenCamisetas"/>
+        </set>
+        <set fetch="select" inverse="true" lazy="true" name="ciclistases" table="ciclistas">
+            <key>
+                <column name="codigoequipo" not-null="true"/>
+            </key>
+            <one-to-many class="clases.Ciclistas"/>
+        </set>
+    </class>
+</hibernate-mapping>

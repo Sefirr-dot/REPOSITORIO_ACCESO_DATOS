@@ -18,7 +18,7 @@
 			<item value="org.eclipse.e4.ui.parts"/>
 		</list>
 		<list key="textEntries">
-			<item value="2"/>
+			<item value="3"/>
 			<item value="2"/>
 			<item value="1"/>
 			<item value="1"/>
@@ -26,6 +26,7 @@
 		<list key="textArray">
 			<item value="marketpla"/>
 			<item value="market"/>
+			<item value="marke"/>
 			<item value="dar"/>
 			<item value="dark"/>
 			<item value="windo"/>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 8 ene 2025, 15:57:47 by Hibernate Tools 5.6.15.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class catalog="ciclistas2" name="clases.Tramospuertos" optimistic-lock="none" table="tramospuertos">
+        <id name="codigotramo" type="int">
+            <column name="codigotramo"/>
+            <generator class="assigned"/>
+        </id>
+        <many-to-one class="clases.Ciclistas" fetch="select" name="ciclistas">
+            <column name="ciclistaganador" not-null="true"/>
+        </many-to-one>
+        <many-to-one class="clases.Etapas" fetch="select" name="etapas">
+            <column name="numetapa" not-null="true"/>
+        </many-to-one>
+        <property name="nombretramo" type="string">
+            <column length="50" name="nombretramo" not-null="true"/>
+        </property>
+        <property name="km" type="float">
+            <column name="km" not-null="true" precision="6"/>
+        </property>
+        <property name="categoria" type="int">
+            <column name="categoria" not-null="true"/>
+        </property>
+        <property name="pendiente" type="string">
+            <column length="50" name="pendiente" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

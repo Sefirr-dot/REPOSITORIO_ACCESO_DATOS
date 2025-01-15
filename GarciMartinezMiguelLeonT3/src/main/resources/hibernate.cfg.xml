@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/ciclistas2</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.hbm2ddl.auto">none</property>
+        <property name="hibernate.search.autoregister_listeners">true</property>
+        <property name="hibernate.validator.apply_to_ddl">false</property>
+
+        <!-- Mapeo usando clases Java con anotaciones -->
+        <mapping class="clases.Tramospuertos"/>
+        <mapping class="clases.Camisetas"/>
+        <mapping class="clases.Ciclistas"/>
+        <mapping class="clases.Etapas"/>
+        <mapping class="clases.Equipos"/>
+        <mapping class="clases.Lleva"/>
+        <mapping class="clases.ResumenCamisetas"/>
+    </session-factory>
+</hibernate-configuration>

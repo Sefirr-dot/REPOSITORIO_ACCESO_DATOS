@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 8 ene 2025, 15:57:47 by Hibernate Tools 5.6.15.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class catalog="ciclistas2" name="clases.Etapas" optimistic-lock="none" table="etapas">
+        <id name="codigoetapa" type="int">
+            <column name="codigoetapa"/>
+            <generator class="assigned"/>
+        </id>
+        <many-to-one class="clases.Ciclistas" fetch="select" name="ciclistas">
+            <column name="ciclistaganador" not-null="true"/>
+        </many-to-one>
+        <property name="tipoetapa" type="string">
+            <column length="35" name="tipoetapa" not-null="true"/>
+        </property>
+        <property name="fechasalida" type="string">
+            <column length="45" name="fechasalida" not-null="true"/>
+        </property>
+        <property name="pobsalida" type="string">
+            <column length="65" name="pobsalida" not-null="true"/>
+        </property>
+        <property name="pobllegada" type="string">
+            <column length="65" name="pobllegada" not-null="true"/>
+        </property>
+        <property name="km" type="float">
+            <column name="km" not-null="true" precision="6"/>
+        </property>
+        <set fetch="select" inverse="true" lazy="true" name="llevas" table="lleva">
+            <key>
+                <column name="numetapa" not-null="true"/>
+            </key>
+            <one-to-many class="clases.Lleva"/>
+        </set>
+        <set fetch="select" inverse="true" lazy="true" name="tramospuertoses" table="tramospuertos">
+            <key>
+                <column name="numetapa" not-null="true"/>
+            </key>
+            <one-to-many class="clases.Tramospuertos"/>
+        </set>
+    </class>
+</hibernate-mapping>

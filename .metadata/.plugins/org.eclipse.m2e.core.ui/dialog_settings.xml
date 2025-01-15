@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Alumno\Desktop\ACCESO DATOS\REPOSITORIO_ACCESO_DATOS\GarciaMartinezMiguelLeonT3"/>
 			<item value="C:\Users\Alumno\Desktop\ACCESO DATOS\PruebaXML"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -45,12 +46,17 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="Tema3"/>
 			<item value="BasesDatos"/>
 			<item value="AD_Tema1"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="HibernatePruebas"/>
+			<item value="GarciaMartinezMiguelLeonT3"/>
+			<item value="GarciMartinezMiguelLeonT3"/>
+			<item value="Tema3"/>
 			<item value="MIGUEL_LEON_GARCIA_DAM2"/>
 			<item value="AD_EJERCICIO_TIPO_EXAMEN"/>
 			<item value="T2_1_PrimeraBaseDatos"/>
@@ -62,7 +68,6 @@
 			<item value="Ejercicio1_EXAMEN"/>
 			<item value="PruebaXSD-XML"/>
 			<item value="EjerciciosClaseCasa"/>
-			<item value="PruebaXML"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

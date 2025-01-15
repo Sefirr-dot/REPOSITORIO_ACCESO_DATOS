@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 8 ene 2025, 19:08:51 by Hibernate Tools 5.6.15.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class catalog="ciclistas2" name="clases.Ciclistas" optimistic-lock="none" table="ciclistas">
+        <id name="codigociclista" type="int">
+            <column name="codigociclista"/>
+            <generator class="assigned"/>
+        </id>
+        <many-to-one class="clases.Ciclistas" fetch="select" name="ciclistas">
+            <column name="jefeEquipo"/>
+        </many-to-one>
+        <many-to-one class="clases.Equipos" fetch="select" name="equipos">
+            <column name="codigoequipo" not-null="true"/>
+        </many-to-one>
+        <property name="nombreciclista" type="string">
+            <column length="50" name="nombreciclista" not-null="true"/>
+        </property>
+        <property name="fechanacimiento" type="date">
+            <column length="10" name="fechanacimiento" not-null="true"/>
+        </property>
+        <property name="peso" type="float">
+            <column name="peso" not-null="true" precision="5"/>
+        </property>
+        <set fetch="select" inverse="true" lazy="true" name="resumenCamisetases" table="resumen_camisetas">
+            <key>
+                <column name="codigociclista" not-null="true"/>
+            </key>
+            <one-to-many class="clases.ResumenCamisetas"/>
+        </set>
+        <set fetch="select" inverse="true" lazy="true" name="llevas" table="lleva">
+            <key>
+                <column name="codigociclista" not-null="true"/>
+            </key>
+            <one-to-many class="clases.Lleva"/>
+        </set>
+        <set fetch="select" inverse="true" lazy="true" name="ciclistases" table="ciclistas">
+            <key>
+                <column name="jefeEquipo"/>
+            </key>
+            <one-to-many class="clases.Ciclistas"/>
+        </set>
+        <set fetch="select" inverse="true" lazy="true" name="tramospuertoses" table="tramospuertos">
+            <key>
+                <column name="ciclistaganador" not-null="true"/>
+            </key>
+            <one-to-many class="clases.Tramospuertos"/>
+        </set>
+        <set fetch="select" inverse="true" lazy="true" name="etapases" table="etapas">
+            <key>
+                <column name="ciclistaganador" not-null="true"/>
+            </key>
+            <one-to-many class="clases.Etapas"/>
+        </set>
+    </class>
+</hibernate-mapping>
