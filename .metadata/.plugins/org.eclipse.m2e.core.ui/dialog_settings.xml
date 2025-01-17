@@ -46,6 +46,7 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="Tema4"/>
 			<item value="Tema3"/>
 			<item value="BasesDatos"/>
 			<item value="AD_Tema1"/>
@@ -53,6 +54,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Neodatis"/>
 			<item value="HibernatePruebas"/>
 			<item value="GarciaMartinezMiguelLeonT3"/>
 			<item value="GarciMartinezMiguelLeonT3"/>
@@ -67,7 +69,6 @@
 			<item value="Ejercicio2_EXAMEN"/>
 			<item value="Ejercicio1_EXAMEN"/>
 			<item value="PruebaXSD-XML"/>
-			<item value="EjerciciosClaseCasa"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
