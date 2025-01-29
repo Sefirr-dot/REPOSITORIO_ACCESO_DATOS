@@ -46,6 +46,7 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="TemaNEODATIS"/>
 			<item value="Tema4"/>
 			<item value="Tema3"/>
 			<item value="BasesDatos"/>
@@ -54,6 +55,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="EjercicioEvaluable"/>
 			<item value="Neodatis"/>
 			<item value="HibernatePruebas"/>
 			<item value="GarciaMartinezMiguelLeonT3"/>
@@ -68,7 +70,6 @@
 			<item value="Interfaces"/>
 			<item value="Ejercicio2_EXAMEN"/>
 			<item value="Ejercicio1_EXAMEN"/>
-			<item value="PruebaXSD-XML"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -88,6 +89,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Usuario\Desktop\DAM2\Acceso a datos\REPOSITORIO_ACCESO_DATOS"/>
 			<item value="C:\Users\Alumno\Desktop\EjemploExamen1"/>
 		</list>
 		<list key="projectNameTemplate">

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Long"/>
     <fullyQualifiedTypeName name="java.lang.LinkageError"/>
     <fullyQualifiedTypeName name="java.awt.RenderingHints"/>
     <fullyQualifiedTypeName name="java.lang.Boolean"/>
@@ -45,7 +44,6 @@
     <fullyQualifiedTypeName name="char"/>
     <fullyQualifiedTypeName name="clasesActuViajesCrearXML.Reservas"/>
     <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlElement"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.Class"/>
     <fullyQualifiedTypeName name="java.sql.Statement"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
@@ -53,11 +51,13 @@
     <fullyQualifiedTypeName name="java.sql.DatabaseMetaData"/>
     <fullyQualifiedTypeName name="com.healthmarketscience.jackcess.Table"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="ejercicios.ResumenCamisetasApp"/>
     <fullyQualifiedTypeName name="ejercicios.Ejercicio2"/>
     <fullyQualifiedTypeName name="clases.Etapas"/>
     <fullyQualifiedTypeName name="clases.Tramospuertos"/>
     <fullyQualifiedTypeName name="clases.Equipos"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.protocol.x.SyncFlushDeflaterOutputStream"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>
