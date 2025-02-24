@@ -1,46 +1,49 @@
 package negocio;
 
+import java.sql.Date;
 import java.util.List;
 
 import dao.DepartamentoDAO;
+import dao.EmpleadoDAO;
 //import dao.impl.neodatis.DepartamentoImplNeodatis;
 import dao.impl.mysql.DepartamentoImplMysql;
-
+import dao.impl.mysql.EmpleadoImplMysql;
 import model.Departamento;
+import model.Empleado;
 
 public class DaoPrueba0Mysql {
 	public static void main(String[] args) {
 		//DepartamentoDAO depDAO = new DepartamentoImplNeodatis();
-		DepartamentoDAO depDAO = new DepartamentoImplMysql();
+		EmpleadoDAO empDAO = new EmpleadoImplMysql();
 		// INSERTAR
-		Departamento dep1 = new Departamento(17, "NÓMINAS", "SEVILLA");
-		depDAO.InsertarDep(dep1);
+		Empleado emp1 = new Empleado(8000, "GARCIA", "EMPLEADP", 6777,  Date.valueOf("1999-09-09"), 766, 77, 10);
+		empDAO.InsertarEmp(emp1);
 
 		// CONSULTAR
-		Departamento dep2 = depDAO.ConsultarDep(17);
-		System.out.printf("Dep: %d, Nombre: %s, Loc: %s %n", dep2.getDeptno(), dep2.getDnombre(), dep2.getLoc());
+		Empleado emp2 = empDAO.ConsultarEmp(8000);
+		System.out.printf("Dep: %d, Apellido: %s, Comision: %s %n", emp2.getDep(), emp2.getApellido(), emp2.getComision());
 
 		// MODIFICAR
-		dep2.setDnombre("nuevonom");
-		dep2.setLoc("nuevaloc");
-		depDAO.ModificarDep(17, dep2);
-		System.out.printf("Dep Modificado: %d, Nombre: %s, Loc: %s %n", dep2.getDeptno(), dep2.getDnombre(),
-				dep2.getLoc());
+		emp2.setApellido("nuevonom");
+		emp2.setComision(23);
+		empDAO.ModificarEmp(8000, emp2);
+		System.out.printf("Emp Modificado: %d, Apellido: %s, Comision: %s %n", emp2.getEmp_no(), emp2.getApellido(),
+				emp2.getComision());
 
 		// LISTAR DEPARTAMENTOS
 
-		List<Departamento> departamentos = depDAO.ListarDep(); // Llamamos al método listarDep para obtener la lista
-		if (departamentos != null && !departamentos.isEmpty()) {
-			for (Departamento dep : departamentos) {
-				System.out.println("Dep Listado ID: " + dep.getDeptno() + ", Nombre: " + dep.getDnombre()
-						+ ", Localidad: " + dep.getLoc());
+		List<Empleado> empleados = empDAO.ListarEmp(); // Llamamos al método listarDep para obtener la lista
+		if (empleados != null && !empleados.isEmpty()) {
+			for (Empleado dep : empleados) {
+				System.out.println("Emp Listado ID: " + dep.getEmp_no() + ", Apellido: " + dep.getApellido()
+						+ ", Comision: " + dep.getComision());
 			}
 		} else {
 			System.out.println("No existen departamentos.");
 		}
 
 		// ELIMINAR
-		depDAO.EliminarDep(17);
+		empDAO.EliminarEmp(8000);
 
 	}
 }
